@@ -62,28 +62,60 @@ Move each pointer up level-by-level until they meet
 """
 class Solution:
     def get_depth(self, p):
-            depth = 0
-            while p:
-                p = p.parent
-                depth +=1
-            return depth
+        """
+        Helper function to calculate the depth of a given node `p` in a tree.
+        The depth is the distance from the node to the root.
+        
+        Args:
+            p (Node): The node whose depth is to be calculated.
+        
+        Returns:
+            int: Depth of the node in the tree.
+        """
+        depth = 0
+        while p:  # Traverse upwards until the root node is reached
+            p = p.parent
+            depth += 1  # Increment depth counter
+        return depth
+
     def lowestCommonAncestor(self, p: 'Node', q: 'Node') -> 'Node':
+        """
+        Finds the lowest common ancestor (LCA) of two nodes in a tree where nodes 
+        have parent pointers.
+        
+        The approach:
+        - Compute the depth of both nodes.
+        - Move the deeper node up until both nodes are at the same level.
+        - Move both nodes up together until they meet, which is the LCA.
+
+        Args:
+            p (Node): First node.
+            q (Node): Second node.
+
+        Returns:
+            Node: The lowest common ancestor of p and q.
+        """
+        # Step 1: Compute the depth of both nodes
         p_depth = self.get_depth(p)
         q_depth = self.get_depth(q)
 
-        # Move the lower pointer up so that they are each at the same level. 
-		# For the smaller depth (p_depth < q_depth or q_depth < p_depth), 
-		# the loop will be skipped and the pointer will stay at the same depth.
+        # Step 2: Move the deeper node up so both nodes are at the same depth
+        # If `p` is deeper, move `p` up
         for _ in range(p_depth - q_depth):
             p = p.parent
+
+        # If `q` is deeper, move `q` up
         for _ in range(q_depth - p_depth):
             q = q.parent
 
-        while(p != q):
+        # Step 3: Move both nodes up simultaneously until they meet
+        while p != q:
             p = p.parent
             q = q.parent
-        
+
+        # Step 4: Return the first common ancestor
         return p
+
         
 
         

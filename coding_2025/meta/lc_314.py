@@ -34,29 +34,60 @@ Output: [[4],[2,5],[1,10,9,6],[3],[11]]
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from typing import Optional, List
+from collections import defaultdict, deque
+
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
 class Solution:
     def verticalOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+        # Edge case: If the tree is empty, return an empty list
         if not root:
             return []
+        
+        # Dictionary to store node values grouped by their column index
         treeData = defaultdict(list)
+
+        # Queue to perform level-order traversal (BFS)
         q = deque([root])
-        cols = deque([0])
+
+        # Queue to track the column index corresponding to each node
+        cols = deque([0])  # Root starts at column index 0
+
+        # Variables to track the minimum and maximum column indices
         _min = 0
         _max = 0
+
+        # Result list to store the vertical order traversal
         res = []
+
+        # Perform BFS traversal
         while q:
+            # Pop the node and its corresponding column index
             node = q.popleft()
             col = cols.popleft()
+
+            # Store the node's value in the corresponding column index
             treeData[col].append(node.val)
+
+            # If the node has a left child, add it to the queue with col - 1
             if node.left:
                 q.append(node.left)
                 cols.append(col - 1)
-                _min = min(_min, col - 1)
+                _min = min(_min, col - 1)  # Update the minimum column index
+
+            # If the node has a right child, add it to the queue with col + 1
             if node.right:
                 q.append(node.right)
                 cols.append(col + 1)
-                _max = max(_max, col + 1)
+                _max = max(_max, col + 1)  # Update the maximum column index
             
-        for i in range(_min, _max+1): 
+        # Collect results in order of column indices from _min to _max
+        for i in range(_min, _max + 1): 
             res.append(treeData.get(i))
+
         return res

@@ -54,34 +54,52 @@ Constraints:
 1 <= w[i] <= 105
 pickIndex will be called at most 104 times.
 '''
+import random
+from typing import List
+
 class Solution:
 
     def __init__(self, w: List[int]):
-        self.w = w
-        #1.Calculate relative frequency
+        """
+        Preprocessing step to convert the given weights into a prefix sum 
+        of probabilities, effectively creating a probability distribution.
+        """
+        self.w = w  # Store the weights list
+
+        # Step 1: Calculate the total sum of weights
         denom = sum(self.w)
+
+        # Step 2: Normalize the weights by converting them into probabilities
         for i in range(len(self.w)):
-            self.w[i] = self.w[i] /denom
+            self.w[i] = self.w[i] / denom  # Convert each weight into a fraction of total weight
+
+        # Step 3: Convert the probabilities into a cumulative sum (prefix sum)
+        # This helps in determining the region each index occupies on a [0,1] range.
         for i in range(1, len(self.w)):
-            self.w[i] += self.w[i-1]
-        
+            self.w[i] += self.w[i - 1]
 
     def pickIndex(self) -> int:
-        N = random.uniform(0,1)
+        """
+        Picks an index randomly based on weight distribution using a random
+        number in the range [0,1] and checking where it falls in the cumulative sum.
+        """
+        # Generate a random number in the range [0,1]
+        N = random.uniform(0, 1)
 
+        # Initialize index and a flag for breaking the loop
         flag = 1
         index = -1
 
-        # test each region of the numberline to see if N falls in it, if it 
-		# does not then go to the next index and check if N falls in it
-		# this is gaurenteed to break because of previous normalization
+        # Iterate through the cumulative probability array to find the corresponding index
         while flag:
             index += 1
 
+            # If N falls within the cumulative probability range, return the corresponding index
             if N <= self.w[index]:
-                flag = 0
+                flag = 0  # Exit loop
 
         return index
+
 
 
 # Your Solution object will be instantiated and called as such:

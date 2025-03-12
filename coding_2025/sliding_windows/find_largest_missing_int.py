@@ -52,24 +52,48 @@ Explanation:
 There is no integer that appears in only one subarray of size 1.
 '''
 
+from typing import List
+
 class Solution:
     def largestInteger(self, nums: List[int], k: int) -> int:
-        if k> len(nums):
-            return -1
-        freq_map = {}
-        left, right = 0, 0
-        while right < len(nums):
-            if right - left + 1 == k:
-                sub_array = nums[left:right+1]
-                for item in set(sub_array):
-                    freq_map[item] = freq_map.get(item, 0) + 1
-                left += 1
-            right+=1
-
-        max_res = -1
+        """
+        Finds the largest unique integer in any subarray of length `k`.
         
-        for k, v in freq_map.items():
-            if v == 1:
-                max_res = max(k, max_res)
+        Approach:
+        - Use a sliding window technique to iterate through all subarrays of size `k`.
+        - Maintain a frequency map to track occurrences of numbers in subarrays.
+        - Identify the largest integer that appears exactly once across all subarrays.
+
+        Time Complexity: O(N * K) in worst case (for small `k`).
+        Space Complexity: O(N) for the frequency map.
+        """
+        
+        # Edge case: if k is larger than the list length, return -1
+        if k > len(nums):
+            return -1
+        
+        freq_map = {}  # Dictionary to store frequency of elements
+        left, right = 0, 0  # Sliding window pointers
+
+        # Step 1: Iterate through the list using a sliding window of size `k`
+        while right < len(nums):
+            if right - left + 1 == k:  # When window size reaches `k`
+                sub_array = nums[left:right+1]  # Extract the subarray
+                
+                # Count the frequency of elements in the current subarray
+                for item in set(sub_array):  # Use set to avoid duplicate counting
+                    freq_map[item] = freq_map.get(item, 0) + 1
+                
+                # Move the left pointer forward to slide the window
+                left += 1
             
-        return max_res
+            right += 1  # Expand the window by moving right pointer
+        
+        max_res = -1  # Variable to store the maximum unique integer
+
+        # Step 2: Find the largest integer that appears exactly once
+        for num, count in freq_map.items():
+            if count == 1:  # Only consider numbers appearing once
+                max_res = max(num, max_res)
+            
+        return max_res  # Return the largest unique integer found

@@ -27,17 +27,29 @@ Constraints:
 1 <= nums.length <= 104
 -109 <= nums[i] <= 109
 '''
+from typing import List
+
 class Solution:
     def nextGreaterElements(self, nums: List[int]) -> List[int]:
+        # Initialize result array with -1, as default values (if no greater element is found)
         res = [-1] * len(nums)
+        # Stack to store indices of elements (used for tracking next greater elements)
         stack = []
-        for i , num in enumerate(nums):
+        
+        # First pass: Traverse the array once to fill next greater elements for normal order
+        for i, num in enumerate(nums):
+            # Check if the current element is greater than the element at the top of the stack
             while stack and nums[stack[-1]] < num:
+                # Update result array with next greater element
                 res[stack.pop()] = num
+            # Push the index onto the stack
             stack.append(i)
 
+        # Second pass: Traverse again to handle the circular nature of the array
         for i, num in enumerate(nums):
+            # Process only those elements left in the stack
             while stack and nums[stack[-1]] < num:
                 res[stack.pop()] = num
+
         return res
-        
+

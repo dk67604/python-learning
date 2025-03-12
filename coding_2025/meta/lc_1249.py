@@ -39,18 +39,37 @@ s[i] is either '(' , ')', or lowercase English letter.
 '''
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:
-        extraParentheses = [] # Store indexes for open parentheses
+        """
+        Given a string `s` containing letters and parentheses, remove the 
+        minimum number of parentheses to make the string valid.
+        
+        A valid string means that:
+        - Open '(' parentheses must have a corresponding closing ')' parentheses.
+        - Parentheses must be properly nested.
+        """
+        
+        # Stack to store indices of unmatched '(' parentheses
+        extraParentheses = []
+        
+        # Convert string to list to modify characters easily
         s = list(s)
-        openCount = 0
+        
+        # First pass: Identify invalid ')' parentheses
         for index, ch in enumerate(s):
             if ch == '(':
+                # Store index of '(' for future matching
                 extraParentheses.append(index)
             elif ch == ')':
                 if extraParentheses:
+                    # Valid pair found, remove matched '(' from stack
                     extraParentheses.pop()
                 else:
+                    # No matching '(', mark ')' for removal
                     s[index] = ''
+
+        # Second pass: Remove unmatched '(' parentheses
         while extraParentheses:
             s[extraParentheses.pop()] = ''
-        
+
+        # Return the final valid string
         return ''.join(s)
