@@ -47,19 +47,30 @@ All the integers in abbr will fit in a 32-bit integer.
 
 class Solution:
     def validWordAbbreviation(self, word: str, abbr: str) -> bool:
-        i,j = 0, 0
+        i, j = 0, 0  # Pointers for `word` and `abbr`
+        
+        # Iterate through both `word` and `abbr`
         while i < len(word) and j < len(abbr):
-            if abbr[j].isdigit():
-                if abbr[j] == '0':
+            if abbr[j].isdigit():  # If the current character in `abbr` is a digit
+                if abbr[j] == '0':  
+                    # Leading zeros are not allowed in a valid abbreviation
                     return False
-                shift = 0
+                
+                shift = 0  # Stores the number to skip characters in `word`
+                
+                # Build the full number (handling multi-digit numbers)
                 while j < len(abbr) and abbr[j].isdigit():
-                    shift = (shift*10) + int(abbr[j])
-                    j+=1
-                i+=shift
-            else:
-                if word[i] != abbr[j]:
+                    shift = (shift * 10) + int(abbr[j])  # Convert string to integer
+                    j += 1  # Move to the next character in `abbr`
+                
+                i += shift  # Skip `shift` number of characters in `word`
+            
+            else:  # If `abbr[j]` is a letter
+                if i >= len(word) or word[i] != abbr[j]:  
+                    # Mismatch in characters or out of bounds, return False
                     return False
-                i+=1
-                j+=1
-        return i == len(word) and j == len(abbr)
+                
+                i += 1  # Move to the next character in `word`
+                j += 1  # Move to the next character in `abbr`
+        
+        # Both `word` and `abbr` should
