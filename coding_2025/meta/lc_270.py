@@ -28,11 +28,40 @@ class Solution:
         # Find the value in the list that is closest to the target
         return min(values, key=lambda x: abs(target - x))  
 
-    def closestValue2(self, root: Optional[TreeNode], target: float) -> int:
-        closest = root.val
+    
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution2:
+    def closestValue(self, root: Optional[TreeNode], target: float) -> int:
+        closest = root.val  # Initialize closest with the root value
+        
         while root:
-            if abs(root.val - target) < (closest - target):
+            # Check if the current node is a better candidate for "closest"
+            if (
+                # ✅ Case 1: current node is strictly closer to target than previous closest
+                abs(root.val - target) < abs(closest - target)
+                
+                # ✅ Case 2: current node is equally close but numerically smaller
+                or (
+                    abs(root.val - target) == abs(closest - target)  # Same distance
+                    and root.val < closest                           # Prefer smaller value
+                )
+            ):
+                # ✅ Update closest to current node's value
                 closest = root.val
-            root = root.left if target < root.left else root.right
+            
+            # Move left if target is smaller, right if target is larger
+            if target < root.val:
+                root = root.left
+            else:
+                root = root.right
+
         return closest
+
+        
+
 
