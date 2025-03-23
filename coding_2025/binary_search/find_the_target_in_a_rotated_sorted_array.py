@@ -1,27 +1,35 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        # Here the idea is take rotation into consideration that will result in searching
-        # the target element in O(log(n)) time instead linear time
-        # To acheive this task after finding mid point we try to see which part of the subarray
-        # is sorted and then  try to find the target element in that and adjust the position of left
-        # and right 
-        left , right = 0, len(nums) - 1
+        """
+        Searches for target in a rotated sorted array and returns its index if found, else -1.
+        Uses binary search logic with O(log n) time complexity.
+        """
+
+        left, right = 0, len(nums) - 1
+
+        # Continue searching while the window is valid
         while left < right:
-            mid = (left + right) //2
+            mid = (left + right) // 2
+
+            # Found the target at the mid
             if nums[mid] == target:
                 return mid
-            # if the left subarraya [left: mid] is sorted, check if the target
-            # falls in this range. If it does search the left subarray, search the right
-            elif nums[left] <= nums[mid]:
+
+            # Check if the left half [left ... mid] is sorted
+            if nums[left] <= nums[mid]:
+                # If target is within the sorted left half
                 if nums[left] <= target < nums[mid]:
-                    right = mid - 1
+                    right = mid - 1  # search in the left half
                 else:
-                    left = mid + 1
-            
+                    left = mid + 1   # search in the right half
+
+            # Else, the right half [mid ... right] is sorted
             else:
+                # If target is within the sorted right half
                 if nums[mid] < target <= nums[right]:
-                    left = mid + 1
+                    left = mid + 1   # search in the right half
                 else:
-                    right = mid - 1
-        return left if nums and nums[left] == target else -1 
-        
+                    right = mid - 1  # search in the left half
+
+        # Final check when left == right
+        return left if nums and nums[left] == target else -1
