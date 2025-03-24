@@ -29,8 +29,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
+          git config user.name "dk67604"
+          git config user.email "dharamendra.kumar@outlook.com
           git coding_2025/meta//README.md
           git commit -m "Auto-update README.md with file list" || echo "No changes to commit"
           git push
