@@ -1,4 +1,5 @@
 '''
+https://leetcode.com/problems/nested-list-weight-sum/description/
 339. Nested List Weight Sum
 Solved
 Medium
@@ -28,6 +29,29 @@ Example 3:
 
 Input: nestedList = [0]
 Output: 0
+
+✅ Time Complexity: O(n)
+Where:
+
+n is the total number of elements in the entire nested structure, including both integers and lists.
+
+Why?
+You visit every element exactly once, whether it's:
+
+an integer → multiply it by its depth
+
+or a list → recursively traverse it
+
+So the number of isInteger(), getInteger(), and getList() calls is proportional to the number of total elements → O(n)
+
+✅ Space Complexity:
+DFS version: O(d) — where d is the maximum depth of nesting
+
+Comes from the recursion stack
+
+BFS version: O(w) — where w is the maximum number of elements at any level
+
+Comes from the queue
 '''
 from typing import List
 
@@ -93,3 +117,29 @@ class Solution:
         
         # Start the recursive function with depth 1
         return helper(nestedList, 1)
+
+from typing import List
+from collections import deque
+
+'''
+Time: O(n), where n is the total number of NestedInteger elements (including those nested)
+
+Space: O(n) for the queue in the worst case
+
+
+'''
+class Solution2:
+    def depthSum(self, nestedList: List['NestedInteger']) -> int:
+        total = 0
+        queue = deque([(item, 1) for item in nestedList])  # Each element is (NestedInteger, depth)
+
+        while queue:
+            current, depth = queue.popleft()
+
+            if current.isInteger():
+                total += current.getInteger() * depth
+            else:
+                for ni in current.getList():
+                    queue.append((ni, depth + 1))  # Increase depth for nested list
+
+        return total

@@ -26,14 +26,29 @@ Example 3:
 
 Input: root = [1,2,3,4,10,9,11,null,5,null,null,null,null,null,null,null,6]
 Output: [[4],[2,5],[1,10,9,6],[3],[11]]
+
+📌 Final Time Complexity:
+🟩 O(n) — where n is the number of nodes in the binary tree
+
+All operations are linear in the number of nodes. There are no nested loops or redundant traversals.
+
+🧠 Space Complexity (Bonus):
+treeData: stores each node once → O(n)
+
+q and cols: hold up to one level of nodes at a time → O(w) where w = max width of the tree (worst case: O(n))
+
+res: stores all node values grouped → O(n)
+
+➡️ Overall space complexity: O(n)
 '''
 
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 from typing import Optional, List
 from collections import defaultdict, deque
 

@@ -1,5 +1,25 @@
 '''
 https://leetcode.com/problems/sparse-matrix-multiplication/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+
+🔸 Time Complexity: O(nz1 + nz2 + z)
+Where:
+
+nz1 = number of non-zero elements in mat1
+
+nz2 = number of non-zero elements in mat2
+
+z = number of actual non-zero multiplications (i.e., shared non-zero indices between corresponding row in mat1 and column in mat2)
+
+➡️ This is much better than the naive O(m1 * n1 * n2) time when matrices are sparse (contain lots of zeros).
+
+🔸 Space Complexity: O(nz1 + nz2 + m1 * n2)
+O(nz1) for storing sparse representation X of mat1
+
+O(nz2) for storing sparse representation Y of mat2
+
+O(m1 * n2) for storing the result matrix res (though it may contain many zeros, it's fully allocated)
+
+➡️ The extra space for X and Y is still efficient for sparse matrices compared to storing full matrices.
 '''
 
 from collections import defaultdict

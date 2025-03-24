@@ -1,7 +1,26 @@
 '''
 https://leetcode.com/problems/range-sum-query-2d-immutable/
-Time Complexity: O(m)
-Space Complexity: O(m * n)
+✅ __init__ Method (Constructor)
+Time Complexity: O(m × n)
+Where m = number of rows, n = number of columns in the matrix.
+
+You initialize the prefix sum matrix and compute prefix sums row by row.
+
+Each cell is processed exactly once.
+
+Space Complexity: O(m × n)
+A new 2D array prefixSum of the same dimensions as the input matrix is created.
+
+✅ sumRegion(row1, col1, row2, col2)
+Time Complexity: O(r), where r = row2 - row1 + 1
+For each row between row1 and row2, you compute a single subtraction to get the sum for that row segment.
+
+This takes linear time in the number of rows spanned by the region.
+
+⚠️ Note: This is not constant time since the query still loops over rows — it's fast, but not the optimal 2D prefix sum approach (which would be O(1)).
+
+Space Complexity: O(1)
+No additional space is used apart from a few variables.
 '''
 class NumMatrix:
 

@@ -1,5 +1,17 @@
 '''
 https://leetcode.com/problems/subarray-sum-equals-k/
+
+✅ Time Complexity: O(n)
+You iterate through the array once, updating the cumulative prefix sum and checking a hashmap (dictionary) for each element.
+
+All operations inside the loop — dictionary lookups and updates — are O(1) on average.
+
+So, for an input list of length n, total time is O(n).
+
+✅ Space Complexity: O(n)
+In the worst case, the prefix_sum_map stores a unique prefix sum for every index of the array (if all prefix sums are different).
+
+Therefore, space used by the hashmap is O(n).
 '''
 from typing import List
 

@@ -20,6 +20,18 @@ Example 3:
 Input: intervals = [[1,2],[2,3]]
 Output: 0
 Explanation: You don't need to remove any of the intervals since they're already non-overlapping.
+
+✅ Time Complexity: O(n log n)
+Sorting the intervals by end time takes O(n log n)
+
+One pass through the list: O(n)
+
+Total: O(n log n)
+
+✅ Space Complexity: O(1)
+Sorting is done in-place.
+
+Only a few variables used for tracking.
  
 '''
 

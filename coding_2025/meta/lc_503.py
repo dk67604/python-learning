@@ -26,6 +26,12 @@ Constraints:
 
 1 <= nums.length <= 104
 -109 <= nums[i] <= 109
+
+The second pass helps us simulate the circular nature of the array.
+
+Instead of physically rotating the array or creating a new one of size 2n, we logically simulate this by:
+
+Traversing the array twice, so that every element gets a chance to see what comes "after" it, even if that’s at the start of the array.
 '''
 from typing import List
 

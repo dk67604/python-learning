@@ -28,6 +28,22 @@ Constraints:
 
 The number of nodes in the tree is in the range [1, 104].
 -100 <= Node.val <= 100
+
+📌 Time Complexity: O(n)
+Each node is visited exactly once.
+
+Work done at each node (calculating height and updating diameter) is constant time.
+
+Let n be the number of nodes in the tree → total time: O(n)
+
+📌 Space Complexity:
+O(h), where h is the height of the tree (due to recursion stack).
+
+Best case (balanced tree): O(log n)
+
+Worst case (completely unbalanced tree): O(n)
+
+
 '''
 
 # Definition for a binary tree node.
@@ -48,35 +64,28 @@ class TreeNode:
         self.right = right
 
 class Solution:
-    def rangeSumBST(self, root: Optional[TreeNode], low: int, high: int) -> int:
-        """
-        Given a Binary Search Tree (BST), calculate the sum of values of all nodes
-        that fall within the range [low, high].
-        """
-        
-        res = 0  # Variable to store the accumulated sum
+    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+        # Initialize diameter to negative infinity to track the maximum path length
+        diameter = float('-inf')
 
-        # Depth-First Search (DFS) helper function
-        def dfs(node: TreeNode) -> None:
-            nonlocal res  # Allow modification of outer `res` variable
+        def helper(node: TreeNode) -> int:
+            nonlocal diameter  # Allow us to update the outer variable
 
-            if not node:  # Base case: If the node is None, return
-                return
+            if not node:
+                return 0  # Base case: no height from a null node
 
-            # If the node's value is within the given range, add it to the sum
-            if low <= node.val <= high:
-                res += node.val
+            # Recursively compute the height of left and right subtrees
+            left = max(helper(node.left), 0)
+            right = max(helper(node.right), 0)
 
-            # If the node's value is greater than 'low', continue searching the left subtree
-            if low < node.val:
-                dfs(node.left)
+            # Diameter at current node = left height + right height
+            # Update the global diameter if this path is longer
+            diameter = max(diameter, left + right)
 
-            # If the node's value is less than 'high', continue searching the right subtree
-            if node.val < high:
-                dfs(node.right)
+            # Return the height of the current node to the parent call
+            return 1 + max(left, right)
 
-        # Start DFS traversal from the root
-        dfs(root)
+        # Kick off the recursion from the root
+        helper(root)
 
-        # Return the total sum of values within the given range
-        return res
+        return diameter

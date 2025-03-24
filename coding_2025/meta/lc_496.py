@@ -40,6 +40,47 @@ All the integers of nums1 also appear in nums2.
  
 
 Follow up: Could you find an O(nums1.length + nums2.length) solution?
+
+✅ Time Complexity: O(m + n)
+Where:
+
+m = len(nums1)
+
+n = len(nums2)
+
+🔍 Step-by-step Breakdown:
+Preprocessing nums2 with a stack: O(n)
+
+python
+Copy
+Edit
+for num in reversed(nums2):
+Each element is pushed and popped at most once from the stack.
+
+So even with the while stack: inside, the total work is linear in nums2.
+
+The hashmap is filled with at most n entries — constant-time operations.
+
+Building output for nums1: O(m)
+
+python
+Copy
+Edit
+for j in nums1:
+    output.append(hashmap[j])
+Each lookup in the hashmap is O(1).
+
+✅ Total Time:
+text
+Copy
+Edit
+O(n) + O(m) = O(m + n)
+✅ Space Complexity: O(n)
+Stack: Can hold up to n elements → O(n)
+
+Hashmap: Stores one mapping for each number in nums2 → O(n)
+
+Output: Stores m results → O(m), but since it's returned, it's not counted as extra space.
 '''
 from typing import List
 

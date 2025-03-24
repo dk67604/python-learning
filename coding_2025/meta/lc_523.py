@@ -1,5 +1,42 @@
 '''
 https://leetcode.com/problems/continuous-subarray-sum/description/
+
+✅ Why Index -1?
+This is a trick to handle subarrays starting from index 0.
+
+Let’s say:
+
+python
+Copy
+Edit
+nums = [6, 1, 2], k = 6
+The cumulative sum at index 0 is:
+
+python
+Copy
+Edit
+total = 6 → 6 % 6 = 0
+So at index 0, remainder is 0.
+
+Now check:
+
+python
+Copy
+Edit
+i - remainder[0] = 0 - (-1) = 1  ❌ (length < 2)
+But by index 2:
+
+sum = 6 + 1 + 2 = 9
+
+9 % 6 = 3 → still no match
+
+Now if another 3 appears later, it’ll check if a subarray of length ≥ 2 had the same remainder before.
+
+So storing remainder 0 at index -1 ensures that:
+
+Any subarray starting at index 0 is still valid
+
+The length check still works: i - (-1) = i + 1, which is the full length from index 0 to i
 '''
 from typing import List
 

@@ -53,6 +53,28 @@ Constraints:
 1 <= w.length <= 104
 1 <= w[i] <= 105
 pickIndex will be called at most 104 times.
+
+✅ Time Complexity:
+__init__() method:
+The constructor runs in O(n) time, where n is the length of the input list w.
+
+Computing the sum of the list takes O(n)
+
+Normalizing the weights takes O(n)
+
+Building the prefix sum array takes O(n)
+
+pickIndex() method:
+In the worst case, pickIndex() takes O(n) time.
+
+It generates a random number N in O(1)
+
+Then performs a linear scan through the cumulative weights array to find the appropriate index, which can take up to O(n)
+
+✅ Space Complexity:
+The space complexity is O(n).
+
+You store the modified cumulative weight array (in-place in self.w), which takes linear space.
 '''
 import random
 from typing import List

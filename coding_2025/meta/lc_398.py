@@ -1,5 +1,23 @@
 '''
 https://leetcode.com/problems/random-pick-index/description/
+
+✅ __init__(self, nums: List[int])
+Time Complexity: O(n)
+Where n is the length of the input list nums.
+
+You iterate through the list once and populate a hashmap (self.map) with indices for each number.
+
+Space Complexity: O(n)
+In the worst case (all elements are unique), each number has its own list of indices → total space = O(n).
+
+✅ pick(self, target: int)
+Time Complexity: O(1)
+Dictionary lookup (self.map[target]) is O(1).
+
+random.choice(indexes) is also O(1).
+
+Space Complexity: O(1)
+Only uses a few local variables; no additional space that grows with input.
 '''
 import random
 from collections import defaultdict

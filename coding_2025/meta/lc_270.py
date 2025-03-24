@@ -1,5 +1,29 @@
 '''
 https://leetcode.com/problems/closest-binary-search-tree-value/description/
+
+✅ Solution 1: Inorder Traversal + Linear Search
+Time Complexity: O(n)
+Inorder traversal visits every node once → O(n)
+
+Finding the closest value in the list using min(..., key=...) → O(n)
+
+Total: O(n)
+
+Space Complexity: O(n)
+You store all node values in the values list → O(n)
+
+Recursion stack (in worst case for unbalanced tree) → up to O(n)
+
+✅ Solution 2: Optimized BST Traversal (Iterative)
+Time Complexity: O(h), where h is the height of the BST
+Each step of the traversal compares and moves either left or right, like binary search.
+
+In a balanced BST, h = log n, so time is O(log n).
+
+In a skewed BST, h = n, so time is O(n) in worst case.
+
+Space Complexity: O(1)
+No recursion or extra space used except a few variables.
 '''
 
 # Definition for a binary tree node.

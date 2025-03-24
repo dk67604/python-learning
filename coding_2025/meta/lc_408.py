@@ -43,34 +43,50 @@ word consists of only lowercase English letters.
 1 <= abbr.length <= 10
 abbr consists of lowercase English letters and digits.
 All the integers in abbr will fit in a 32-bit integer.
+
+🧠 Time and Space Complexity:
+✅ Time Complexity: O(max(m, n))
+m = length of word
+
+n = length of abbr
+
+You iterate through each character of abbr, and may also iterate over all characters in word.
+
+In the worst case, each character in both strings is processed once → O(m + n) = O(max(m, n))
+
+✅ Space Complexity: O(1)
+Only a few pointers and variables are used.
+
+No additional space is used that scales with input.
 '''
 
 class Solution:
     def validWordAbbreviation(self, word: str, abbr: str) -> bool:
         i, j = 0, 0  # Pointers for `word` and `abbr`
-        
+
         # Iterate through both `word` and `abbr`
         while i < len(word) and j < len(abbr):
             if abbr[j].isdigit():  # If the current character in `abbr` is a digit
                 if abbr[j] == '0':  
-                    # Leading zeros are not allowed in a valid abbreviation
+                    # Leading zeros are not allowed
                     return False
-                
-                shift = 0  # Stores the number to skip characters in `word`
-                
-                # Build the full number (handling multi-digit numbers)
+
+                shift = 0  # Stores the number of characters to skip in `word`
+
+                # Build the full number (handle multiple digits)
                 while j < len(abbr) and abbr[j].isdigit():
-                    shift = (shift * 10) + int(abbr[j])  # Convert string to integer
-                    j += 1  # Move to the next character in `abbr`
+                    shift = shift * 10 + int(abbr[j])
+                    j += 1
                 
-                i += shift  # Skip `shift` number of characters in `word`
-            
-            else:  # If `abbr[j]` is a letter
-                if i >= len(word) or word[i] != abbr[j]:  
-                    # Mismatch in characters or out of bounds, return False
+                i += shift  # Skip `shift` characters in the word
+
+            else:
+                # If characters don't match or word is too short
+                if i >= len(word) or word[i] != abbr[j]:
                     return False
-                
-                i += 1  # Move to the next character in `word`
-                j += 1  # Move to the next character in `abbr`
-        
-        # Both `word` and `abbr` should
+                i += 1
+                j += 1
+
+        # Ensure both pointers reach the end of their respective strings
+        return i == len(word) and j == len(abbr)
+

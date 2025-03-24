@@ -1,5 +1,28 @@
 '''
 https://leetcode.com/problems/the-maze/description/
+
+✅ Time Complexity: O(m × n)
+Where:
+
+m = number of rows in the maze
+
+n = number of columns
+
+Explanation:
+Each cell in the maze can be added to the queue at most once.
+
+For each cell, you simulate rolling the ball in 4 directions, but:
+
+The rolling continues until hitting a wall or boundary, not checking every cell repeatedly.
+
+So although rolling may scan several cells per direction, the visited matrix prevents revisiting them.
+
+➡️ Hence, even though you're scanning along paths, each cell is processed once → total time: O(m × n)
+
+✅ Space Complexity: O(m × n)
+visited matrix: O(m × n)
+
+queue can hold up to O(m × n) positions in the worst case
 '''
 
 from collections import deque

@@ -1,5 +1,35 @@
 '''
 https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+
+✅ Time Complexity: O(E × α(n))
+Where:
+
+n = number of nodes
+
+E = number of edges
+
+α(n) = inverse Ackermann function — grows extremely slowly and is considered constant (≤ 5) in all practical scenarios.
+
+Explanation:
+find(x) uses path compression, and union(x, y) uses union by size.
+
+These optimizations ensure that each union or find operation takes amortized O(α(n)) time.
+
+You loop through each edge once → E calls to union().
+
+So total time complexity:
+✅ O(E × α(n)), which is practically linear time.
+
+✅ Space Complexity: O(n)
+Explanation:
+
+You maintain two arrays:
+
+parent[] of size n
+
+size[] of size n
+
+So total auxiliary space = O(n)
 '''
 
 from typing import List

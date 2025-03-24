@@ -1,5 +1,35 @@
 '''
 https://leetcode.com/problems/add-two-numbers-ii/description/
+
+✅ Time Complexity: O(m + n)
+Where:
+
+m = length of linked list l1
+
+n = length of linked list l2
+
+Breakdown:
+Reversing both lists:
+
+reverse_list(l1) takes O(m)
+
+reverse_list(l2) takes O(n)
+
+Adding corresponding digits:
+
+You iterate through both reversed lists once → up to O(max(m, n))
+
+Total time:
+
+scss
+Copy
+Edit
+O(m + n) for reversal + O(max(m, n)) for addition
+⇒ O(m + n)
+✅ Space Complexity: O(m + n)
+In the worst case, the sum may have one more digit than either input (e.g., 999 + 1 = 1000)
+
+So, you create a new linked list of up to max(m, n) + 1 nodes → O(m + n)
 '''
 
 # Definition for singly-linked list.

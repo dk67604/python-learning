@@ -41,6 +41,29 @@ All the values of graph[u] are unique.
 If graph[u] contains v, then graph[v] contains u.
 Seen this question in a real interview before?
 1/5
+
+✅ Time Complexity: O(V + E)
+Where:
+
+V = number of vertices (nodes) in the graph
+
+E = number of edges
+
+Why?
+Each node is visited once → O(V)
+
+Each edge is explored once in an undirected graph → O(E)
+
+So total traversal time is O(V + E)
+
+✅ Space Complexity: O(V)
+Explanation:
+
+colors array takes O(V) space
+
+Call stack (due to DFS) takes up to O(V) in the worst case (if the graph is connected and shaped like a chain)
+
+So total auxiliary space: O(V)
 '''
 
 from typing import List
