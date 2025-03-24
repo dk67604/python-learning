@@ -39,7 +39,7 @@ def generate_readme(folder_path, folder_in_repo='', include_subfolders=False):
 # --- Run directly if script is called from Actions ---
 if __name__ == "__main__":
     generate_readme(
-        folder_path="your-folder",           # Change this
-        folder_in_repo="your-folder",        # Change this
+        folder_path="coding_2025/meta",           # Change this
+        folder_in_repo="coding_2025/meta",        # Change this
         include_subfolders=True              # Change as needed
     )
