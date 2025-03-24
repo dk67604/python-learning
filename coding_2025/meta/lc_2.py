@@ -1,5 +1,6 @@
 '''
 https://leetcode.com/problems/add-two-numbers/description/
+O(max(n, m)), where n is the number of nodes in the first linked list l1, and m is the number of nodes in the second linked list l2.
 '''
 
 class Solution:

@@ -1,5 +1,25 @@
 '''
 https://leetcode.com/problems/combination-sum/description/
+
+Time Complexity: O(2^t), where t is the target value.
+
+Explanation:
+
+In the worst case, the recursion explores all possible combinations of numbers (including repeated use of the same number) that sum up to the target.
+
+Since each number can be used multiple times, the recursion tree can grow exponentially with respect to the target.
+
+The number of recursive calls is bounded by 2^t in the worst case (though pruning with total > target helps in practice).
+
+The actual time also depends on the size of the result list, since each valid combination is copied into the result.
+
+Space Complexity: O(t)
+
+Explanation:
+
+The maximum depth of the recursion tree is O(t) in the worst case (when repeatedly adding the smallest number until the sum reaches target).
+
+Additionally, space is used to store the result list res, but that depends on the number of valid combinations and is not considered extra space for complexity analysis.
 '''
 
 from typing import List

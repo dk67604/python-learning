@@ -1,5 +1,23 @@
 '''
 https://leetcode.com/problems/next-permutation/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+
+Time Complexity: O(n), where n is the length of the list nums.
+
+Explanation:
+
+Step 1: Scanning from right to left to find the first decreasing element takes at most O(n).
+
+Step 2: Finding the next larger element to swap also takes at most O(n).
+
+Step 3: Swapping two elements takes O(1).
+
+Step 4: Reversing the sublist takes at most O(n).
+
+All steps together are linear in time, so the total time complexity is O(n).
+
+Space Complexity: O(1)
+
+The algorithm modifies the input list in place and uses only a constant amount of extra space.
 '''
 from typing import List
 

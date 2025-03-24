@@ -1,5 +1,26 @@
 '''
 https://leetcode.com/problems/combination-sum-ii/description/
+
+Time Complexity: O(2^n), where n is the number of elements in the candidates list.
+
+Explanation:
+
+The solution uses backtracking to explore all subsets of the input list.
+
+In the worst case, each number has two choices: include or exclude, leading to 2^n possible combinations.
+
+Sorting the list takes O(n log n), but the dominant term is the recursive exploration.
+
+Due to the pruning (if cur + candidates[i] > target) and skipping of duplicates, the actual number of recursive calls is much smaller in practice, but still exponential in the worst case.
+
+Space Complexity: O(n)
+
+Explanation:
+
+The recursion stack can go as deep as n in the worst case (when building a long combination).
+
+Aside from the result list res (which is not counted in auxiliary space), only the path list and recursion call stack contribute to space usage.
+
 '''
 
 from typing import List

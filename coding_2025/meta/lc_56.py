@@ -27,6 +27,26 @@ intervals[i].length == 2
 0 <= starti <= endi <= 104
 Seen this question in a real interview before?
 1/5
+
+Time Complexity: O(n log n), where n is the number of intervals.
+
+Explanation:
+
+The list of intervals is sorted by start time, which takes O(n log n) time.
+
+Then, we iterate through the sorted list once to merge intervals, which takes O(n) time.
+
+Therefore, the total time complexity is dominated by the sorting step: O(n log n).
+
+Space Complexity: O(n) in the worst case.
+
+Explanation:
+
+We use an additional list merged to store the merged intervals.
+
+In the worst case (no overlaps), all intervals are added to the result, so the space used is O(n).
+
+The sort operation may also take extra space depending on the sorting algorithm (but typically not counted as extra in-place space usage).
 '''
 
 from typing import List

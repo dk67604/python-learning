@@ -30,6 +30,28 @@ Example 3:
 
 Input: lists = [[]]
 Output: []
+
+Time Complexity: O(N log k), where:
+
+k is the number of linked lists,
+
+N is the total number of nodes across all lists.
+
+Explanation:
+
+Each node is inserted into and removed from the min-heap exactly once.
+
+Inserting or removing from a heap of size k takes O(log k) time.
+
+Since there are N nodes in total, the overall time complexity is O(N log k).
+
+Space Complexity: O(k)
+
+Explanation:
+
+The min-heap holds at most k nodes at any time (one from each list).
+
+Aside from the heap and the output list (which doesn't count as extra space), no additional data structures are used.
 '''
 
 # Definition for singly-linked list.

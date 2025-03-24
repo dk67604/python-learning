@@ -1,3 +1,28 @@
+'''
+htt
+ps://leetcode.com/problems/permutations/description/
+Time Complexity: O(n × n!), where n is the number of elements in the input list nums.
+
+Explanation:
+
+There are n! possible permutations of n unique elements.
+
+For each permutation, you build a list of length n, and copying that list to the result takes O(n) time.
+
+Therefore, the total time complexity is O(n × n!).
+
+Space Complexity: O(n) (excluding the output list)
+
+Explanation:
+
+The recursion stack and the candidate list can each grow up to size n.
+
+The used set also holds up to n elements.
+
+The result list res will take O(n × n!) space to store all permutations, but that is typically not counted as auxiliary space.
+
+'''
+
 from typing import List, Set
 
 class Solution:

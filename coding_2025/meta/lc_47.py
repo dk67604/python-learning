@@ -1,5 +1,21 @@
 '''
 https://leetcode.com/problems/permutations-ii/
+
+Time Complexity: O(n × n!) in the worst case, where n is the length of the input list nums.
+
+Explanation:
+
+Without duplicates, the number of permutations is n!, and building each permutation takes O(n) time, giving a total of O(n × n!).
+
+With duplicates, the number of unique permutations is less than n! (depending on how many repeated elements exist), so the actual number of recursive calls is less — but in the worst case (all unique elements), it remains O(n × n!).
+
+Space Complexity: O(n) (excluding the output list)
+
+Explanation:
+
+The recursion stack, used list, and the current candidates list can each grow up to size n.
+
+The result list res is not included in the auxiliary space calculation, but it will take O(n × n!) space to store all permutations in the worst case.
 '''
 
 from typing import List

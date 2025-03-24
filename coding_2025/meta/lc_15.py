@@ -1,5 +1,23 @@
 '''
 https://leetcode.com/problems/3sum/description/
+
+Time Complexity: O(n^2), where n is the number of elements in the input list nums.
+
+Explanation:
+
+First, the array is sorted in O(n log n) time.
+
+Then, the algorithm uses a loop to fix one element and applies the two-pointer approach for the remaining two elements.
+
+For each element, the two-pointer traversal takes O(n) time in the worst case, and this happens for n elements.
+
+Hence, the overall time complexity is O(n^2).
+
+Space Complexity: O(1) (excluding the output list).
+
+The algorithm does not use any extra space for computation; it modifies pointers in-place after sorting.
+
+However, the space required for the result list depends on the number of valid triplets found, which can vary based on the input.
 '''
 from typing import List
 

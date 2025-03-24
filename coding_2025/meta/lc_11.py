@@ -1,5 +1,11 @@
 '''
 https://leetcode.com/problems/container-with-most-water/
+
+Time Complexity: O(n), where n is the number of elements in the height list.
+
+Explanation: The algorithm uses a two-pointer approach, starting from both ends of the list and moving inward. In each iteration, at least one pointer moves closer to the other, so there are at most n iterations. Each step does constant-time operations, leading to an overall linear time complexity.
+
+Space Complexity: O(1) since the algorithm uses only a fixed amount of extra space regardless of the input size.
 '''
 
 from typing import List
