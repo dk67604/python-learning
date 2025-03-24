@@ -1,3 +1,27 @@
+'''
+https://leetcode.com/problems/merge-intervals/description/
+
+✅ Time Complexity: O(n log n), where n is the number of intervals.
+Explanation:
+
+Sorting the list of intervals by their start time takes O(n log n).
+
+Iterating through the sorted intervals and merging them takes O(n) time.
+
+So the total time complexity is dominated by the sorting step: O(n log n).
+
+✅ Space Complexity: O(n)
+Explanation:
+
+In the worst case (no overlapping intervals), all intervals are added to the merged list → O(n) space.
+
+Although the sorting may be done in-place depending on the implementation, the output list still requires space.
+
+🧠 Summary:
+Time Complexity: O(n log n)
+
+Space Complexity: O(n)
+'''
 from typing import List
 
 class Solution:

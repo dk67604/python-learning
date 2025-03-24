@@ -1,5 +1,49 @@
 '''
 https://leetcode.com/problems/word-ladder/description/
+
+✅ Time Complexity: O(N × M × 26) → Simplifies to O(N × M)
+Where:
+
+N is the number of words in the wordList
+
+M is the length of each word
+
+🔍 Explanation:
+For each word processed in the BFS queue, you:
+
+Loop through each character position in the word → M
+
+Try replacing it with every letter from 'a' to 'z' → 26 letters
+
+For each transformation, you check if it exists in the dictionary (O(1) due to the set)
+
+So per word:
+O(M × 26) = O(M) work
+
+In the worst case, you may explore up to all N words from the dictionary, giving:
+👉 Total time = O(N × M)
+
+✅ Space Complexity: O(N × M)
+Why:
+
+dictionary_set stores up to N words, each of length M → O(N × M)
+
+visited set also stores up to N words → O(N × M)
+
+queue can store up to N words → O(N × M)
+
+No additional complex data structures used
+
+🧠 Summary:
+Time: O(N × M)
+
+Space: O(N × M)
+
+Your solution is efficient because it:
+
+Generates neighbors directly (no need to compare word pairs)
+
+Uses BFS with O(1) lookups via a set
 '''
 
 from typing import List

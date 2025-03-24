@@ -36,14 +36,19 @@ m == grid.length
 n == grid[i].length
 1 <= m, n <= 300
 grid[i][j] is '0' or '1'.
+
+🧠 Time and Space Complexity:
+Time Complexity: O(m × n) — Each cell is visited once.
+
+Space Complexity: O(m × n) — In the worst case, the visited set and recursion stack can grow to cover all land cells.
 '''
 
 from typing import List
 
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        # Define possible movement directions (right, left, up, down)
-        directions = [[1,0], [-1,0], [0,-1],[0,1]]
+        # Define possible movement directions (down, up, left, right)
+        directions = [[1,0], [-1,0], [0,-1], [0,1]]
         
         # Get the number of rows and columns in the grid
         rows = len(grid)
@@ -54,27 +59,30 @@ class Solution:
         
         # Depth-First Search (DFS) function to explore an island
         def dfs(i, j, visited):
-            # Mark the current cell as visited
-            visited.add((i, j))
-            
-            # Explore all four possible directions (up, down, left, right)
+            visited.add((i, j))  # Mark current cell as visited
+
+            # Explore all 4 directions
             for dr, dc in directions:
-                r = i + dr  # New row index
-                c = j + dc  # New column index
-                
-                # Check if the new position is within bounds, is land ('1'), and not visited
-                if 0 <= r < rows and 0 <= c < cols and grid[r][c] == '1' and (r, c) not in visited:
-                    dfs(r, c, visited)  # Recursively visit adjacent land cells
-        
-        # Set to keep track of visited cells
-        visited = set()
-        
-        # Iterate through the grid to find unvisited land cells ('1')
+                r, c = i + dr, j + dc
+                if (
+                    0 <= r < rows and
+                    0 <= c < cols and
+                    grid[r][c] == '1' and
+                    (r, c) not in visited
+                ):
+                    dfs(r, c, visited)  # Recurse on connected land
+
+        visited = set()  # Set to track visited cells
+
+        # Iterate through all grid cells
         for i in range(rows):
             for j in range(cols):
-                # If the cell is land and hasn't been visited, it's a new island
                 if grid[i][j] == '1' and (i, j) not in visited:
-                    island += 1  # Increment the island count
+                    island += 1           # Found a new island
+                    dfs(i, j, visited)    # Explore the entire island
+
+        return island  # Return total number of islands
+
          
 
         

@@ -1,5 +1,40 @@
 '''
 https://leetcode.com/problems/group-shifted-strings/description/
+
+Sure! Here's the time and space complexity explanation for your groupStrings function:
+
+✅ Time Complexity: O(n × m)
+Where:
+
+n is the number of strings in the input list strings
+
+m is the maximum length of any string
+
+Explanation:
+For each of the n strings:
+
+The get_hash function iterates through the string (up to m - 1 character pairs) → O(m)
+
+Hash key generation (including string concatenation) takes O(m) in practice because it handles up to m characters.
+
+Adding strings to a dictionary and converting to list(groups.values()) are also O(n) operations in total.
+
+So, the total time is:
+
+text
+Copy
+Edit
+O(n × m) → processing all n strings of length up to m
+✅ Space Complexity: O(n × m)
+Explanation:
+
+The hash map stores all n strings grouped by their hash key.
+
+In the worst case (no groups share a hash key), each string is stored once → O(n × m) space in total.
+
+Each hash key (as a string) also takes up to O(m) space.
+
+
 '''
 from collections import defaultdict
 from typing import List

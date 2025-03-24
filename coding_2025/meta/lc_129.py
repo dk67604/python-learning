@@ -1,5 +1,27 @@
 '''
 https://leetcode.com/problems/sum-root-to-leaf-numbers/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+
+✅ Time Complexity: O(n), where n is the number of nodes in the binary tree.
+Explanation:
+
+Each node is visited exactly once during the depth-first traversal.
+
+At each node, constant-time operations are performed (multiplication, addition, pushing to stack).
+
+Therefore, the total time is proportional to the number of nodes: O(n)
+
+✅ Space Complexity: O(h), where h is the height of the tree.
+Explanation:
+
+The space used by the stack depends on the depth of the recursion (or stack) at any time.
+
+In the worst case:
+
+For a skewed tree (like a linked list), the height is n, so space = O(n)
+
+For a balanced tree, height = log n, so space = O(log n)
+
+Therefore, space complexity is O(h), where h is the height of the tree.
 '''
 # Definition for a binary tree node.
 # class TreeNode:
@@ -45,36 +67,3 @@ class Solution:
                     stack.append((root.left, curr_number))
 
         return root_to_leaf  # Return the sum of all root-to-leaf numbers
-
-
-class Solution2:
-    def maximumSwap(self, num: int) -> int:
-        """
-        Finds the maximum number that can be obtained by swapping two digits at most once.
-
-        :param num: An integer
-        :return: The maximum possible number after at most one swap
-        """
-
-        # Convert the number to a list of digits (characters)
-        nums = list(str(num))  
-
-        # Variables to track the maximum digit seen from the right
-        max_num = "0"  # Stores the maximum digit encountered (initialized to '0')
-        max_i = -1  # Stores the index of the maximum digit encountered
-        swap_i, swap_j = -1, -1  # Indices of digits to be swapped
-
-        # Traverse the digits from right to left (reversed order)
-        for i in reversed(range(len(nums))):
-            if nums[i] > max_num:  # Update max_num and its index if a larger digit is found
-                max_num = nums[i]
-                max_i = i
-            if nums[i] < max_num:  # If a smaller digit is found before max_num, mark it for swap
-                swap_i, swap_j = i, max_i  
-
-        # If a swap is possible, perform the swap
-        if swap_i != -1:
-            nums[swap_i], nums[swap_j] = nums[swap_j], nums[swap_i]  
-
-        # Convert the list back to an integer and return
-        return int(''.join(nums))

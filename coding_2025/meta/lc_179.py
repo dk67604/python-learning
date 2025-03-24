@@ -24,6 +24,38 @@ Constraints:
 
 1 <= nums.length <= 100
 0 <= nums[i] <= 109
+
+✅ Time Complexity: O(n log n * k)
+Where:
+
+n = number of elements in nums
+
+k = average length of the numbers (as strings)
+
+Explanation:
+String conversion of each number takes O(n * k), where k is the average digit length of the numbers.
+
+Sorting takes O(n log n) comparisons.
+
+Each comparison involves concatenating two strings (n1 + n2 and n2 + n1), which takes O(k) time.
+
+So total sorting complexity is O(n log n * k)
+
+Joining the strings at the end takes O(n * k) time.
+
+So overall, the dominant term is O(n log n * k) due to the custom sort.
+
+✅ Space Complexity: O(n * k)
+Explanation:
+
+You store all numbers as strings → O(n * k) space.
+
+The sorted array and final joined string also take O(n * k) space.
+
+🧠 Summary:
+Time Complexity: O(n log n * k)
+
+Space Complexity: O(n * k)
 '''
 from typing import List
 from functools import cmp_to_key  # Import for custom sorting comparator

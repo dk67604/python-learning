@@ -1,5 +1,42 @@
 '''
 https://leetcode.com/problems/word-search-ii/description/
+
+✅ Time Complexity: O(m × n × 4^L)
+Where:
+
+m = number of rows in the board
+
+n = number of columns in the board
+
+L = maximum length of any word in words
+
+Explanation:
+Trie Construction (Preprocessing):
+
+Inserting each word takes O(L), and there are k words in total → O(k × L) time.
+
+DFS Traversal:
+
+You initiate DFS from each cell in the board → m × n starting points.
+
+From each starting cell, the DFS explores up to 4 directions recursively.
+
+The depth of each DFS call stack is at most L (since word length is bounded by L).
+
+In the worst case (no pruning), each DFS path can take up to O(4^L) time (like a 4-ary tree of depth L).
+
+So total DFS traversal: O(m × n × 4^L)
+
+⚠️ However, the Trie structure significantly prunes invalid paths early, making it much faster in practice than the theoretical upper bound.
+
+✅ Space Complexity: O(k × L) + O(L)
+Explanation:
+
+Trie: Stores up to k × L nodes → O(k × L)
+
+DFS recursion stack: Maximum depth = length of the longest word → O(L)
+
+Result list (res) stores up to k words → O(k), but not counted as auxiliary space
 '''
 
 from typing import List

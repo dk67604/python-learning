@@ -1,5 +1,34 @@
 '''
 https://leetcode.com/problems/word-break/description/
+
+✅ Time Complexity: O(n²), where n is the length of the input string s.
+
+Explanation:
+
+For each index start in the queue (at most n different positions), you may check up to n - start substrings by varying end from start + 1 to n.
+
+Checking if s[start:end] is in the dictionary takes O(1) (thanks to the set).
+
+Since each end index is processed only once (due to seen), the total number of substring checks is bounded by O(n²).
+
+✅ Space Complexity: O(n + m), where:
+
+n is the length of the input string s,
+
+m is the total number of characters in wordDict.
+
+Explanation:
+
+words set takes O(m) space to store the dictionary.
+
+queue and seen sets can store up to n indices → O(n).
+
+No extra space proportional to substrings or a DP table is used.
+
+🧠 Summary:
+Time: O(n²)
+
+Space: O(n + m)
 '''
 from typing import List
 from collections import deque

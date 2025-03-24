@@ -1,5 +1,25 @@
 '''
 https://leetcode.com/problems/simplify-path/
+
+Time Complexity: O(n), where n is the length of the input string path.
+
+Explanation:
+
+Splitting the string by '/' takes O(n) time.
+
+Iterating through each token and performing operations (push/pop) on the stack takes O(n) in total because each directory name is processed at most once.
+
+Joining the stack to form the result also takes O(n) in the worst case.
+
+So, the overall time complexity is O(n).
+
+Space Complexity: O(n)
+
+Explanation:
+
+In the worst case, all parts of the path are valid directory names and get stored in the stack, which takes O(n) space.
+
+The final output string (resulting simplified path) also requires O(n) space to store.
 '''
 from collections import deque
 

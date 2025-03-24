@@ -1,5 +1,23 @@
 '''
 https://leetcode.com/problems/subsets/description/
+
+Time Complexity: O(2^n), where n is the number of elements in the input list nums.
+
+Explanation:
+
+Each element in the list has two choices: include or exclude.
+
+This results in 2^n total subsets (the size of the power set).
+
+Each subset is constructed in O(n) time (due to copying the list), but since we only copy when reaching the base case, and we have 2^n such cases, the total time complexity is O(2^n).
+
+Space Complexity: O(n) (excluding the output)
+
+Explanation:
+
+The recursion stack and the current subset curr_subset can grow up to size n.
+
+The result list res stores 2^n subsets, but that is not counted as auxiliary space — it's part of the required output.
 '''
 
 from typing import List

@@ -1,5 +1,27 @@
 '''
 https://leetcode.com/problems/meeting-rooms/
+
+✅ Time Complexity: O(n log n)
+Where:
+
+n is the number of meeting intervals.
+
+Explanation:
+Sorting the intervals by start time → O(n log n)
+
+Single pass through the intervals to check for overlaps → O(n)
+
+So overall time complexity =
+O(n log n)
+
+✅ Space Complexity: O(1)
+Explanation:
+
+Sorting is done in-place (assuming Python’s Timsort).
+
+No additional data structures that scale with input size are used.
+
+
 '''
 
 from typing import List

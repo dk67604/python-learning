@@ -1,5 +1,36 @@
 '''
 https://leetcode.com/problems/course-schedule/description/
+
+✅ Time Complexity: O(n + p)
+Where:
+
+n is the number of courses (nodes in the graph),
+
+p is the number of prerequisite pairs (edges in the graph).
+
+Explanation:
+Building the graph and in-degree list:
+You iterate through each of the p prerequisites → O(p)
+
+Initializing the queue:
+You scan all n courses to check for zero in-degree → O(n)
+
+Processing the queue (BFS):
+Each course (node) is added and removed from the queue at most once → O(n)
+For each node, you iterate through its neighbors (edges) → O(p)
+
+So total: O(n + p)
+
+✅ Space Complexity: O(n + p)
+Explanation:
+
+Adjacency list (graph) stores up to p edges → O(p)
+
+In-degree array stores n values → O(n)
+
+Queue can hold up to n courses in the worst case → O(n)
+
+
 '''
 
 from typing import List

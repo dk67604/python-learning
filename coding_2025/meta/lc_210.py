@@ -1,4 +1,42 @@
 '''
+https://leetcode.com/problems/course-schedule-ii/description/
+
+✅ Time Complexity: O(n + p)
+Where:
+
+n is the number of courses,
+
+p is the number of prerequisite pairs.
+
+Explanation:
+Graph Construction:
+
+Looping through p prerequisite pairs to build the adjacency list and in_degrees array → O(p)
+
+Queue Initialization:
+
+Iterating through all n courses to enqueue those with zero in-degree → O(n)
+
+Topological Sort Processing:
+
+Each node (course) is dequeued at most once → O(n)
+
+For each node, you loop over its neighbors (edges), and across all nodes, you process all p edges once → O(p)
+
+So total time complexity = O(n + p)
+
+✅ Space Complexity: O(n + p)
+Explanation:
+
+Adjacency list (graph) stores p edges → O(p)
+
+In-degree array stores n values → O(n)
+
+Queue can hold up to n elements → O(n)
+
+Result list (course_order) stores up to n elements → O(n)
+
+So total space complexity = O(n + p)
 
 '''
 from typing import List

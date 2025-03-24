@@ -1,5 +1,21 @@
 '''
 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+
+✅ Time Complexity: O(h), where h is the height of the BST.
+Explanation:
+
+You traverse the tree starting from the root, going either left or right depending on the values of p and q.
+
+In the best case (balanced BST), height h = log n, so time is O(log n).
+
+In the worst case (unbalanced BST or skewed tree), height h = n, so time is O(n).
+
+✅ Space Complexity:
+Iterative version (your code): O(1)
+
+You use no recursion and only a few variables — constant space.
+Recursive version (if you used recursion): O(h) for the recursion stack.
+
 '''
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':

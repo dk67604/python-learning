@@ -1,5 +1,42 @@
 '''
 https://leetcode.com/problems/lru-cache/description/
+
+✅ Time Complexity:
+get(key) → O(1)
+
+put(key, value) → O(1)
+
+Explanation:
+Both get and put operations perform:
+
+Hashmap lookups (e.g., self.hashmap[key]) → O(1)
+
+Doubly Linked List operations (add_to_tail, remove_node) → O(1) because they only involve pointer adjustments.
+
+So, every operation (get/put) completes in constant time → O(1).
+
+This is the key design of an efficient LRU cache: combining a hashmap (for fast lookup) and a doubly linked list (for tracking usage order in constant time).
+
+✅ Space Complexity: O(capacity)
+Explanation:
+
+The cache stores up to capacity nodes.
+
+Each node is stored in both:
+
+the hashmap (for key lookup),
+
+and the doubly linked list (for usage ordering).
+
+Therefore, space grows linearly with capacity.
+
+🧠 Summary:
+Operation	Time Complexity
+get()	O(1)
+put()	O(1)
+Space Complexity: O(capacity)
+
+Let me know if you'd like a visual diagram of how get and put work step-by-step!
 '''
 # Node definition for a doubly linked list
 class DoublyLinkedListNode:

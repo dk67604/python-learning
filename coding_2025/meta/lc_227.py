@@ -1,5 +1,28 @@
 '''
 https://leetcode.com/problems/basic-calculator-ii/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+
+✅ Time Complexity: O(n), where n is the length of the input string s.
+Explanation:
+
+You loop through the entire string exactly once → O(n)
+
+Each number and operator is processed once.
+
+Stack operations (append, pop) are O(1) each.
+
+Final sum(stack) runs in O(n) time (in the worst case, every digit forms a new number).
+
+So overall:
+O(n)
+
+✅ Space Complexity: O(n) in the worst case.
+Explanation:
+
+The stack stores intermediate results.
+
+In the worst case (e.g., only additions/subtractions), you push up to n values onto the stack → O(n) space.
+
+currentNumber, operation, and loop variables take constant space.
 '''
 
 class Solution:
