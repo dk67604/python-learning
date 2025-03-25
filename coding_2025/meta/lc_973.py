@@ -29,6 +29,21 @@ class Solution:
         
         return res  # Return the list of k closest points
 
+'''
+✅ Time Complexity: O(n log k)
+Where:
+
+n is the total number of points in the input
+
+k is the number of closest points to return
+
+✅ Space Complexity: O(k)
+You maintain a heap of size at most k → O(k)
+
+Result array res also stores k points → O(k)
+
+
+'''
 
 class Solution2:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:

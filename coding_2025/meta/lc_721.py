@@ -1,3 +1,27 @@
+'''
+
+✅ Time Complexity: O(N * M * log M)
+Where:
+
+N is the number of accounts
+
+M is the average number of emails per account
+O(N * M) for graph construction
++ O(V + E) for DFS traversal
++ O(M log M) for sorting
+⇒ O(N * M + M log M)
+
+✅ Space Complexity: O(N * M)
+Graph storage (adjacency list): O(M)
+
+Visited set: O(M)
+
+Recursive DFS call stack: up to O(M) in worst case
+
+Result storage: O(N * M)
+
+'''
+
 from typing import List
 from collections import defaultdict
 

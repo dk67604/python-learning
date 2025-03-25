@@ -5,6 +5,25 @@
 # class BinaryMatrix(object):
 #     def get(self, row: int, col: int) -> int:
 #     def dimensions(self) -> list[]:
+'''
+✅ Time Complexity of leftMostColumnWithOne:
+Let’s define:
+
+m = number of rows in the binary matrix
+
+n = number of columns in the binary matrix
+
+⏱ Time Complexity: O(m * log n)
+For each row (total m rows), the algorithm performs a binary search over the columns (n columns).
+
+Binary search on n columns takes O(log n) time.
+
+Thus, total time = m * O(log n) = O(m log n)
+
+🧠 Space Complexity: O(1)
+No extra space is used apart from a few variables (constant space).
+
+'''
 
 class Solution:
     def leftMostColumnWithOne(self, binaryMatrix: 'BinaryMatrix') -> int:

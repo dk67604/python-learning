@@ -1,5 +1,32 @@
 '''
 https://leetcode.com/problems/redundant-connection/description/
+
+✅ Time Complexity: O(n * α(n))
+Where:
+
+n is the number of nodes (or edges, since this is a connected graph)
+
+α(n) is the inverse Ackermann function, which grows extremely slowly and is practically constant for all realistic values of n (even up to billions)
+
+Why?
+You loop through each of the n edges → O(n)
+
+Each call to union() involves two find() operations
+
+With path compression, each find() takes O(α(n))
+
+So each union takes O(α(n)) in the worst case
+
+➡️ Total = O(n * α(n)) → considered almost linear
+
+✅ Space Complexity: O(n)
+The Union-Find structure uses:
+
+parent[] array of size n + 1
+
+size[] array of size n + 1
+
+So the overall space used is O(n)
 '''
 
 from typing import List

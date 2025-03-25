@@ -1,5 +1,25 @@
 '''
 https://leetcode.com/problems/task-scheduler/description/
+
+Time Complexity: O(n × log k)
+
+n is the total number of tasks
+
+k is the number of unique tasks
+
+Each task may be pushed to or popped from the heap (which takes O(log k) time)
+
+In the worst case, we simulate up to n actual task executions plus possible idle slots
+
+So, the overall time complexity is O(n × log k)
+
+Space Complexity: O(k)
+
+We use a max-heap to store frequencies of up to k unique tasks
+
+We also use a queue to store tasks in the cooldown period, which can hold at most k tasks at any point
+
+So, the overall space complexity is O(k)
 '''
 
 import heapq

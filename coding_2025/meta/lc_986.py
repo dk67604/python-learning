@@ -1,5 +1,28 @@
 '''
 https://leetcode.com/problems/interval-list-intersections/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+
+✅ Time Complexity: O(n + m)
+Where:
+
+n is the length of firstList
+
+m is the length of secondList
+
+🔍 Why?
+You're iterating through both interval lists using two pointers (i for firstList and j for secondList).
+
+In each iteration, at least one of the pointers is incremented (either i or j), based on which interval ends earlier.
+
+So the total number of iterations is at most n + m.
+
+No nested loops, no sorting — just a single linear scan of both lists.
+
+✅ Space Complexity: O(k)
+Where k is the number of overlapping intervals added to the result list.
+
+You only store the intersections found in the result list.
+
+No additional memory is used other than for the result.
 '''
 from typing import List
 

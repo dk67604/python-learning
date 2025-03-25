@@ -1,5 +1,26 @@
 '''
 https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+
+Time Complexity: O(n * log W)
+
+n is the number of packages (len(weights)).
+
+W is the sum of all weights (sum(weights)), which defines the upper bound of the binary search range.
+
+The algorithm performs a binary search over possible capacities in the range [max(weights), sum(weights)], which takes log W steps.
+
+For each binary search step, the canShip() function runs in O(n) time to simulate the shipping process.
+
+So, the total time complexity is O(n * log W).
+
+Space Complexity: O(1)
+
+The solution uses only a constant amount of extra space (for variables like left, right, mid, current_load, etc.).
+
+No additional data structures are used that grow with input size.
+
+
+
 '''
 
 from typing import List

@@ -28,6 +28,43 @@ The number of nodes in the tree is in the range [1, 2 * 104].
 1 <= Node.val <= 105
 1 <= low <= high <= 105
 All Node.val are unique.
+
+✅ Time Complexity: O(n)
+Where n is the number of nodes in the tree.
+
+Why?
+In the worst case, the function may need to visit every node in the tree.
+
+Even though it prunes subtrees using the BST property, the pruning only happens when the node's value is clearly outside the range.
+
+So in the worst-case scenario (e.g., all nodes fall inside [low, high]), the function visits every node.
+
+🚀 Best-case time complexity:
+If most nodes are outside the range, the pruning reduces the number of nodes visited.
+
+For example, if low = 50 and all nodes are < 50, you only traverse the rightmost path.
+
+So best case is O(log n) for a balanced BST.
+
+But overall, we say worst-case is O(n).
+
+✅ Space Complexity: O(h)
+Where h is the height of the tree.
+
+Why?
+This is a recursive solution, so it uses the call stack.
+
+In the worst case (unbalanced tree), the recursion can go as deep as n → O(n).
+
+In the best case (balanced BST), the recursion depth is log n → O(log n)
+
+So,
+
+Worst case (unbalanced BST) → O(n)
+
+Best case (balanced BST) → O(log n)
+
+
 '''
 
 # Definition for a binary tree node.

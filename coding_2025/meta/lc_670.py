@@ -1,5 +1,11 @@
 '''
 https://leetcode.com/problems/maximum-swap/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+You're allowed to swap two digits at most once in a number to make it as large as possible.
+
+The greedy strategy is:
+
+For each digit, check if there's a larger digit later in the number.
+If so, swap with the rightmost occurrence of that larger digit (to maximize the number).
 '''
 class Solution:
     def maximumSwap(self, num: int) -> int:

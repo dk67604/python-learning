@@ -1,5 +1,43 @@
 '''
 https://leetcode.com/problems/rotting-oranges/
+
+✅ Time Complexity: O(m × n)
+Where:
+
+m is the number of rows in the grid.
+
+n is the number of columns.
+
+🔍 Why?
+Grid Traversal (Initialization)
+
+You traverse the entire grid once to:
+
+Count fresh oranges.
+
+Add all rotten oranges to the queue.
+
+This takes O(m × n).
+
+BFS Traversal
+
+In the worst case, every cell with a fresh orange gets visited exactly once and turned rotten.
+
+So again, BFS will process each cell at most once → O(m × n).
+
+Hence, the overall time complexity is:
+
+✅ O(m × n)
+
+✅ Space Complexity: O(m × n)
+In the worst case, the queue can hold all the rotten oranges → up to O(m × n).
+
+You also use a few variables like ones, seconds, and a directions list of constant size, which is negligible.
+
+So:
+
+✅ Space Complexity = O(m × n)
+
 '''
 
 from collections import deque

@@ -1,5 +1,31 @@
 '''
 https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+
+✅ Time Complexity: O(n)
+Where n is the number of nodes in the tree.
+
+Breakdown:
+build_graph() visits each node once → O(n)
+
+BFS also visits each node once → O(n)
+
+Each node and edge is processed once
+
+Appending and checking nodes in graph and visited set: O(1) average
+
+✅ Total time = O(n)
+
+✅ Space Complexity: O(n)
+Breakdown:
+graph dictionary stores up to 2 * (n - 1) edges → O(n)
+
+visited set: O(n)
+
+queue stores nodes level by level → O(n) in worst case
+
+answer list: O(n) in the worst case (e.g. all nodes are k-distance away)
+
+✅ Total space = O(n)
 '''
 from collections import defaultdict, deque
 from typing import List

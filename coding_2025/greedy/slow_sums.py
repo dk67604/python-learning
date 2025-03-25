@@ -18,6 +18,9 @@ output = 26
 First, add 4 + 3 for a penalty of 7. Now the array is [7, 2, 1]
 Add 7 + 2 for a penalty of 9. Now the array is [9, 1]
 Add 9 + 1 for a penalty of 10. The penalties sum to 26.
+
+Time	O(n log n)
+Space	O(n)
 '''
 
 import heapq

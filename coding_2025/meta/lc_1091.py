@@ -1,3 +1,30 @@
+'''
+✅ Time Complexity: O(n^2)
+Let n be the number of rows/columns in the n x n grid (as per problem constraints).
+
+In the worst case, every cell in the grid is traversable (value 0), and each cell is visited once.
+
+For each cell, we consider its 8 neighbors, so operations per cell are constant: O(1).
+
+👉 Therefore, total operations = O(n^2) for visiting each cell once.
+
+✅ Space Complexity: O(n^2)
+Version 1 (Solution class):
+
+It modifies the grid in-place to store distance instead of using a separate visited structure.
+
+Queue stores up to O(n^2) cells in the worst case.
+
+So total auxiliary space is O(n^2) (dominated by the queue).
+
+Version 2 (Solution2 class):
+
+Uses an explicit visited set, which can grow up to O(n^2) in size.
+
+The queue can also hold up to O(n^2) elements.
+
+Therefore, space complexity is O(n^2) as well.
+'''
 from collections import deque
 from typing import List
 class Solution:

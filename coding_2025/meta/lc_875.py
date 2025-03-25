@@ -33,6 +33,8 @@ Constraints:
 1 <= piles.length <= 104
 piles.length <= h <= 109
 1 <= piles[i] <= 109
+
+Time Complexity: O(n log m)
 '''
 
 from typing import List
