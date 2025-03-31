@@ -31,6 +31,7 @@
 | `lc_212.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_212.py) |
 | `lc_227.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_227.py) |
 | `lc_23.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_23.py) |
+| `lc_232.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_232.py) |
 | `lc_235.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_235.py) |
 | `lc_249.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_249.py) |
 | `lc_251.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_251.py) |
@@ -83,6 +84,7 @@
 | `lc_71.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_71.py) |
 | `lc_721.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_721.py) |
 | `lc_73.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_73.py) |
+| `lc_74.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_74.py) |
 | `lc_78.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_78.py) |
 | `lc_79.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_79.py) |
 | `lc_791.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_791.py) |
@@ -91,4 +93,5 @@
 | `lc_938.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_938.py) |
 | `lc_973.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_973.py) |
 | `lc_986.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_986.py) |
+| `lc_987.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_987.py) |
 | `lc_994.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_994.py) |
