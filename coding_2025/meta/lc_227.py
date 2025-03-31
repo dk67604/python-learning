@@ -40,6 +40,7 @@ class Solution:
                 currentNumber = currentNumber * 10 + int(char)
 
             # If it's an operator (not digit and not space) or end of string
+            # The reason we check this is to ensure that the very last number in the string is processed, even if it’s not followed by an operator.
             if (not char.isdigit() and char != ' ') or i == len(s) - 1:
                 # Apply the last stored operation to currentNumber
                 if operation == '+':
