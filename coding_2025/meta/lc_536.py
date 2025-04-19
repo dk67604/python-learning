@@ -57,7 +57,7 @@ class Solution:
                 node.right = TreeNode()             # Prepare right child node
                 stack.append(node.right)            # Add right child to stack
 
-            index += 1  # Move to next character
+            index += 1  # Move to next character This next character could ')'
 
         # At the end, either stack has one last parent to return, or return root
         return stack.pop() if stack else root
