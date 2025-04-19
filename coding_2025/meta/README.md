@@ -71,6 +71,7 @@
 | `lc_528.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_528.py) |
 | `lc_536.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_536.py) |
 | `lc_539.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_539.py) |
+| `lc_54.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_54.py) |
 | `lc_543.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_543.py) |
 | `lc_56.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_56.py) |
 | `lc_560.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_560.py) |
