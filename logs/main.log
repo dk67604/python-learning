@@ -1,0 +1,1163 @@
+[2025-04-14 01:05:38] [MainProcess] [INFO] Initializing smart file processor pipeline...
+[2025-04-14 01:05:38] [MainProcess] [INFO] Starting metrics dashboard process...
+[2025-04-14 01:05:38] [MainProcess] [INFO] Starting dispatcher process...
+[2025-04-14 01:05:38] [MainProcess] [INFO] Starting asynchronous file reader...
+[2025-04-14 01:05:38] [MetricsDashboard] [INFO] Metrics dashboard started.
+[2025-04-14 01:05:38] [MainProcess] [INFO] Watching file: data/sample.jsonl
+[2025-04-14 01:05:38] [Dispatcher] [INFO] Dispatcher loop started.
+[2025-04-14 01:05:38] [MetricsDashboard] [INFO] No latencies recorded yet.
+[2025-04-14 01:05:38] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.827, "size": 972}
+[2025-04-14 01:05:38] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.795, "size": 149}
+[2025-04-14 01:05:38] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.61, "size": 788}
+[2025-04-14 01:05:38] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.673, "size": 335}
+[2025-04-14 01:05:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.673, "size": 999}
+[2025-04-14 01:05:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.508, "size": 418}
+[2025-04-14 01:05:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.28, "size": 237}
+[2025-04-14 01:05:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.204, "size": 210}
+[2025-04-14 01:05:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.373, "size": 281}
+[2025-04-14 01:05:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.994, "size": 409}
+[2025-04-14 01:05:39] [Process-3:1] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.461, "size": 894}
+[2025-04-14 01:05:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.175, "size": 476}
+[2025-04-14 01:05:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.104, "size": 991}
+[2025-04-14 01:05:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.596, "size": 142}
+[2025-04-14 01:05:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.909, "size": 586}
+[2025-04-14 01:05:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.319, "size": 377}
+[2025-04-14 01:05:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.882, "size": 952}
+[2025-04-14 01:05:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.245, "size": 198}
+[2025-04-14 01:05:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.366, "size": 222}
+[2025-04-14 01:05:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.807, "size": 742}
+[2025-04-14 01:05:40] [Process-3:2] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:40] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.552s | P90: 0.885s | P99: 0.978s
+[2025-04-14 01:05:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.115, "size": 428}
+[2025-04-14 01:05:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.599, "size": 912}
+[2025-04-14 01:05:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.121, "size": 174}
+[2025-04-14 01:05:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.48, "size": 423}
+[2025-04-14 01:05:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.484, "size": 604}
+[2025-04-14 01:05:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.278, "size": 605}
+[2025-04-14 01:05:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.971, "size": 865}
+[2025-04-14 01:05:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.489, "size": 277}
+[2025-04-14 01:05:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.534, "size": 316}
+[2025-04-14 01:05:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.426, "size": 350}
+[2025-04-14 01:05:41] [Process-3:3] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.165, "size": 243}
+[2025-04-14 01:05:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.16, "size": 873}
+[2025-04-14 01:05:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.193, "size": 507}
+[2025-04-14 01:05:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.4, "size": 576}
+[2025-04-14 01:05:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.642, "size": 949}
+[2025-04-14 01:05:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.342, "size": 120}
+[2025-04-14 01:05:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.979, "size": 644}
+[2025-04-14 01:05:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.242, "size": 204}
+[2025-04-14 01:05:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.974, "size": 680}
+[2025-04-14 01:05:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.888, "size": 675}
+[2025-04-14 01:05:42] [Process-3:4] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:42] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.482s | P90: 0.915s | P99: 0.988s
+[2025-04-14 01:05:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.112, "size": 773}
+[2025-04-14 01:05:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.471, "size": 908}
+[2025-04-14 01:05:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.265, "size": 982}
+[2025-04-14 01:05:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.396, "size": 252}
+[2025-04-14 01:05:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.547, "size": 561}
+[2025-04-14 01:05:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.342, "size": 965}
+[2025-04-14 01:05:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.609, "size": 506}
+[2025-04-14 01:05:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.864, "size": 146}
+[2025-04-14 01:05:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.361, "size": 909}
+[2025-04-14 01:05:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.775, "size": 546}
+[2025-04-14 01:05:43] [Process-3:5] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.347, "size": 447}
+[2025-04-14 01:05:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.988, "size": 393}
+[2025-04-14 01:05:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.938, "size": 105}
+[2025-04-14 01:05:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.583, "size": 961}
+[2025-04-14 01:05:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.574, "size": 497}
+[2025-04-14 01:05:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.178, "size": 369}
+[2025-04-14 01:05:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.419, "size": 307}
+[2025-04-14 01:05:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.173, "size": 620}
+[2025-04-14 01:05:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.259, "size": 938}
+[2025-04-14 01:05:44] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.475s | P90: 0.890s | P99: 0.987s
+[2025-04-14 01:05:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.678, "size": 459}
+[2025-04-14 01:05:44] [Process-3:6] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.845, "size": 433}
+[2025-04-14 01:05:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.412, "size": 500}
+[2025-04-14 01:05:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.966, "size": 387}
+[2025-04-14 01:05:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.982, "size": 340}
+[2025-04-14 01:05:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.762, "size": 833}
+[2025-04-14 01:05:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.668, "size": 150}
+[2025-04-14 01:05:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.737, "size": 183}
+[2025-04-14 01:05:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.47, "size": 531}
+[2025-04-14 01:05:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.675, "size": 297}
+[2025-04-14 01:05:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.183, "size": 760}
+[2025-04-14 01:05:45] [Process-3:7] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.315, "size": 412}
+[2025-04-14 01:05:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.62, "size": 936}
+[2025-04-14 01:05:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.215, "size": 220}
+[2025-04-14 01:05:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.888, "size": 627}
+[2025-04-14 01:05:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.897, "size": 591}
+[2025-04-14 01:05:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.953, "size": 466}
+[2025-04-14 01:05:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.225, "size": 100}
+[2025-04-14 01:05:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.699, "size": 465}
+[2025-04-14 01:05:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.309, "size": 534}
+[2025-04-14 01:05:46] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.486s | P90: 0.941s | P99: 0.990s
+[2025-04-14 01:05:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.577, "size": 675}
+[2025-04-14 01:05:46] [Process-3:8] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.674, "size": 640}
+[2025-04-14 01:05:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.308, "size": 593}
+[2025-04-14 01:05:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.308, "size": 529}
+[2025-04-14 01:05:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.888, "size": 713}
+[2025-04-14 01:05:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.667, "size": 589}
+[2025-04-14 01:05:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.57, "size": 720}
+[2025-04-14 01:05:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.905, "size": 287}
+[2025-04-14 01:05:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.261, "size": 286}
+[2025-04-14 01:05:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.26, "size": 301}
+[2025-04-14 01:05:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.964, "size": 821}
+[2025-04-14 01:05:47] [Process-3:9] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.353, "size": 987}
+[2025-04-14 01:05:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.616, "size": 819}
+[2025-04-14 01:05:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.543, "size": 733}
+[2025-04-14 01:05:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.565, "size": 217}
+[2025-04-14 01:05:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.389, "size": 101}
+[2025-04-14 01:05:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.432, "size": 525}
+[2025-04-14 01:05:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.166, "size": 910}
+[2025-04-14 01:05:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.189, "size": 704}
+[2025-04-14 01:05:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.62, "size": 550}
+[2025-04-14 01:05:48] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.521s | P90: 0.940s | P99: 0.989s
+[2025-04-14 01:05:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.962, "size": 492}
+[2025-04-14 01:05:48] [Process-3:10] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.923, "size": 698}
+[2025-04-14 01:05:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.349, "size": 666}
+[2025-04-14 01:05:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.531, "size": 293}
+[2025-04-14 01:05:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.975, "size": 803}
+[2025-04-14 01:05:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.261, "size": 178}
+[2025-04-14 01:05:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.633, "size": 837}
+[2025-04-14 01:05:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.513, "size": 260}
+[2025-04-14 01:05:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.727, "size": 650}
+[2025-04-14 01:05:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.258, "size": 876}
+[2025-04-14 01:05:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.418, "size": 862}
+[2025-04-14 01:05:49] [Process-3:11] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.513, "size": 113}
+[2025-04-14 01:05:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.36, "size": 118}
+[2025-04-14 01:05:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.662, "size": 704}
+[2025-04-14 01:05:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.302, "size": 771}
+[2025-04-14 01:05:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.711, "size": 911}
+[2025-04-14 01:05:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.282, "size": 394}
+[2025-04-14 01:05:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.811, "size": 627}
+[2025-04-14 01:05:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.318, "size": 585}
+[2025-04-14 01:05:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.544, "size": 125}
+[2025-04-14 01:05:50] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.522s | P90: 0.940s | P99: 0.987s
+[2025-04-14 01:05:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.665, "size": 160}
+[2025-04-14 01:05:50] [Process-3:12] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.356, "size": 775}
+[2025-04-14 01:05:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.634, "size": 279}
+[2025-04-14 01:05:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.566, "size": 304}
+[2025-04-14 01:05:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.742, "size": 923}
+[2025-04-14 01:05:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.789, "size": 166}
+[2025-04-14 01:05:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.965, "size": 240}
+[2025-04-14 01:05:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.137, "size": 443}
+[2025-04-14 01:05:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.72, "size": 911}
+[2025-04-14 01:05:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.894, "size": 157}
+[2025-04-14 01:05:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.606, "size": 297}
+[2025-04-14 01:05:51] [Process-3:13] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.825, "size": 871}
+[2025-04-14 01:05:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.144, "size": 488}
+[2025-04-14 01:05:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.661, "size": 152}
+[2025-04-14 01:05:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.658, "size": 226}
+[2025-04-14 01:05:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.355, "size": 637}
+[2025-04-14 01:05:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.195, "size": 838}
+[2025-04-14 01:05:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.795, "size": 354}
+[2025-04-14 01:05:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.167, "size": 448}
+[2025-04-14 01:05:52] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.544s | P90: 0.925s | P99: 0.986s
+[2025-04-14 01:05:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.533, "size": 251}
+[2025-04-14 01:05:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.4, "size": 702}
+[2025-04-14 01:05:52] [Process-3:14] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.834, "size": 607}
+[2025-04-14 01:05:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.628, "size": 838}
+[2025-04-14 01:05:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.396, "size": 146}
+[2025-04-14 01:05:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.778, "size": 557}
+[2025-04-14 01:05:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.885, "size": 754}
+[2025-04-14 01:05:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.994, "size": 478}
+[2025-04-14 01:05:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.176, "size": 336}
+[2025-04-14 01:05:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.845, "size": 594}
+[2025-04-14 01:05:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.507, "size": 903}
+[2025-04-14 01:05:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.648, "size": 858}
+[2025-04-14 01:05:53] [Process-3:15] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.684, "size": 662}
+[2025-04-14 01:05:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.383, "size": 896}
+[2025-04-14 01:05:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.872, "size": 183}
+[2025-04-14 01:05:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.232, "size": 212}
+[2025-04-14 01:05:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.94, "size": 401}
+[2025-04-14 01:05:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.83, "size": 942}
+[2025-04-14 01:05:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.396, "size": 368}
+[2025-04-14 01:05:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.119, "size": 605}
+[2025-04-14 01:05:54] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.546s | P90: 0.910s | P99: 0.991s
+[2025-04-14 01:05:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.694, "size": 936}
+[2025-04-14 01:05:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.597, "size": 774}
+[2025-04-14 01:05:54] [Process-3:16] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.977, "size": 864}
+[2025-04-14 01:05:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.189, "size": 737}
+[2025-04-14 01:05:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.235, "size": 598}
+[2025-04-14 01:05:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.773, "size": 710}
+[2025-04-14 01:05:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.951, "size": 130}
+[2025-04-14 01:05:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.354, "size": 196}
+[2025-04-14 01:05:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.867, "size": 651}
+[2025-04-14 01:05:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.128, "size": 234}
+[2025-04-14 01:05:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.35, "size": 449}
+[2025-04-14 01:05:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.849, "size": 896}
+[2025-04-14 01:05:55] [Process-3:17] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.606, "size": 409}
+[2025-04-14 01:05:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.994, "size": 282}
+[2025-04-14 01:05:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.16, "size": 886}
+[2025-04-14 01:05:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.432, "size": 356}
+[2025-04-14 01:05:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.364, "size": 675}
+[2025-04-14 01:05:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.872, "size": 198}
+[2025-04-14 01:05:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.356, "size": 978}
+[2025-04-14 01:05:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.41, "size": 701}
+[2025-04-14 01:05:56] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.556s | P90: 0.924s | P99: 0.990s
+[2025-04-14 01:05:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.842, "size": 314}
+[2025-04-14 01:05:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.367, "size": 881}
+[2025-04-14 01:05:56] [Process-3:18] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.312, "size": 560}
+[2025-04-14 01:05:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.727, "size": 123}
+[2025-04-14 01:05:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.398, "size": 760}
+[2025-04-14 01:05:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.74, "size": 253}
+[2025-04-14 01:05:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.615, "size": 473}
+[2025-04-14 01:05:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.131, "size": 199}
+[2025-04-14 01:05:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.63, "size": 268}
+[2025-04-14 01:05:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.743, "size": 458}
+[2025-04-14 01:05:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.807, "size": 116}
+[2025-04-14 01:05:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.286, "size": 740}
+[2025-04-14 01:05:57] [Process-3:19] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.557, "size": 896}
+[2025-04-14 01:05:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.201, "size": 760}
+[2025-04-14 01:05:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.395, "size": 410}
+[2025-04-14 01:05:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.541, "size": 156}
+[2025-04-14 01:05:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.39, "size": 674}
+[2025-04-14 01:05:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.686, "size": 624}
+[2025-04-14 01:05:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.305, "size": 353}
+[2025-04-14 01:05:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.925, "size": 675}
+[2025-04-14 01:05:58] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.556s | P90: 0.910s | P99: 0.994s
+[2025-04-14 01:05:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.545, "size": 623}
+[2025-04-14 01:05:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.341, "size": 278}
+[2025-04-14 01:05:58] [Process-3:20] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.746, "size": 715}
+[2025-04-14 01:05:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.694, "size": 374}
+[2025-04-14 01:05:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.534, "size": 371}
+[2025-04-14 01:05:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.662, "size": 441}
+[2025-04-14 01:05:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.683, "size": 461}
+[2025-04-14 01:05:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.944, "size": 257}
+[2025-04-14 01:05:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.929, "size": 678}
+[2025-04-14 01:05:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.745, "size": 800}
+[2025-04-14 01:05:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.86, "size": 642}
+[2025-04-14 01:05:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.536, "size": 537}
+[2025-04-14 01:05:59] [Process-3:21] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:05:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.867, "size": 322}
+[2025-04-14 01:06:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.945, "size": 225}
+[2025-04-14 01:06:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.111, "size": 816}
+[2025-04-14 01:06:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.805, "size": 509}
+[2025-04-14 01:06:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.57, "size": 829}
+[2025-04-14 01:06:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.776, "size": 825}
+[2025-04-14 01:06:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.386, "size": 138}
+[2025-04-14 01:06:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.246, "size": 957}
+[2025-04-14 01:06:00] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.561s | P90: 0.923s | P99: 0.993s
+[2025-04-14 01:06:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.768, "size": 942}
+[2025-04-14 01:06:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.748, "size": 925}
+[2025-04-14 01:06:00] [Process-3:22] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.225, "size": 471}
+[2025-04-14 01:06:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.564, "size": 150}
+[2025-04-14 01:06:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.783, "size": 676}
+[2025-04-14 01:06:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.198, "size": 746}
+[2025-04-14 01:06:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.859, "size": 656}
+[2025-04-14 01:06:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.376, "size": 456}
+[2025-04-14 01:06:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.411, "size": 980}
+[2025-04-14 01:06:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.943, "size": 884}
+[2025-04-14 01:06:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.916, "size": 329}
+[2025-04-14 01:06:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.251, "size": 342}
+[2025-04-14 01:06:01] [Process-3:23] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.675, "size": 429}
+[2025-04-14 01:06:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.897, "size": 829}
+[2025-04-14 01:06:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.349, "size": 118}
+[2025-04-14 01:06:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.632, "size": 957}
+[2025-04-14 01:06:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.782, "size": 799}
+[2025-04-14 01:06:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.382, "size": 466}
+[2025-04-14 01:06:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.999, "size": 776}
+[2025-04-14 01:06:02] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.565s | P90: 0.923s | P99: 0.992s
+[2025-04-14 01:06:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.292, "size": 488}
+[2025-04-14 01:06:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.201, "size": 302}
+[2025-04-14 01:06:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.766, "size": 317}
+[2025-04-14 01:06:02] [Process-3:24] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.545, "size": 758}
+[2025-04-14 01:06:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.67, "size": 857}
+[2025-04-14 01:06:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.8, "size": 927}
+[2025-04-14 01:06:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.633, "size": 671}
+[2025-04-14 01:06:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.788, "size": 859}
+[2025-04-14 01:06:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.451, "size": 292}
+[2025-04-14 01:06:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.461, "size": 680}
+[2025-04-14 01:06:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.287, "size": 255}
+[2025-04-14 01:06:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.714, "size": 673}
+[2025-04-14 01:06:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.485, "size": 992}
+[2025-04-14 01:06:03] [Process-3:25] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.874, "size": 825}
+[2025-04-14 01:06:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.975, "size": 392}
+[2025-04-14 01:06:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.178, "size": 803}
+[2025-04-14 01:06:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.34, "size": 833}
+[2025-04-14 01:06:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.429, "size": 518}
+[2025-04-14 01:06:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.855, "size": 229}
+[2025-04-14 01:06:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.925, "size": 592}
+[2025-04-14 01:06:04] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.568s | P90: 0.917s | P99: 0.994s
+[2025-04-14 01:06:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.961, "size": 479}
+[2025-04-14 01:06:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.501, "size": 547}
+[2025-04-14 01:06:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.346, "size": 556}
+[2025-04-14 01:06:04] [Process-3:26] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.624, "size": 705}
+[2025-04-14 01:06:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.66, "size": 511}
+[2025-04-14 01:06:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.672, "size": 728}
+[2025-04-14 01:06:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.931, "size": 657}
+[2025-04-14 01:06:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.187, "size": 380}
+[2025-04-14 01:06:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.361, "size": 905}
+[2025-04-14 01:06:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.373, "size": 943}
+[2025-04-14 01:06:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.795, "size": 441}
+[2025-04-14 01:06:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.413, "size": 410}
+[2025-04-14 01:06:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.641, "size": 803}
+[2025-04-14 01:06:05] [Process-3:27] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.539, "size": 406}
+[2025-04-14 01:06:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.975, "size": 659}
+[2025-04-14 01:06:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.601, "size": 468}
+[2025-04-14 01:06:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.66, "size": 740}
+[2025-04-14 01:06:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.486, "size": 890}
+[2025-04-14 01:06:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.377, "size": 228}
+[2025-04-14 01:06:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.402, "size": 598}
+[2025-04-14 01:06:06] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.570s | P90: 0.925s | P99: 0.994s
+[2025-04-14 01:06:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.112, "size": 441}
+[2025-04-14 01:06:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.516, "size": 487}
+[2025-04-14 01:06:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.964, "size": 459}
+[2025-04-14 01:06:06] [Process-3:28] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.558, "size": 164}
+[2025-04-14 01:06:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.213, "size": 870}
+[2025-04-14 01:06:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.58, "size": 279}
+[2025-04-14 01:06:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.903, "size": 845}
+[2025-04-14 01:06:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.642, "size": 198}
+[2025-04-14 01:06:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.774, "size": 526}
+[2025-04-14 01:06:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.366, "size": 675}
+[2025-04-14 01:06:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.375, "size": 296}
+[2025-04-14 01:06:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.966, "size": 667}
+[2025-04-14 01:06:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.585, "size": 944}
+[2025-04-14 01:06:07] [Process-3:29] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.192, "size": 588}
+[2025-04-14 01:06:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.29, "size": 801}
+[2025-04-14 01:06:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.943, "size": 950}
+[2025-04-14 01:06:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.952, "size": 121}
+[2025-04-14 01:06:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.123, "size": 703}
+[2025-04-14 01:06:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.941, "size": 711}
+[2025-04-14 01:06:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.291, "size": 359}
+[2025-04-14 01:06:08] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.570s | P90: 0.925s | P99: 0.994s
+[2025-04-14 01:06:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.109, "size": 688}
+[2025-04-14 01:06:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.931, "size": 209}
+[2025-04-14 01:06:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.168, "size": 838}
+[2025-04-14 01:06:09] [Process-3:30] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.198, "size": 508}
+[2025-04-14 01:06:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.786, "size": 315}
+[2025-04-14 01:06:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.169, "size": 579}
+[2025-04-14 01:06:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.655, "size": 595}
+[2025-04-14 01:06:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.8, "size": 727}
+[2025-04-14 01:06:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.452, "size": 461}
+[2025-04-14 01:06:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.636, "size": 990}
+[2025-04-14 01:06:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.647, "size": 371}
+[2025-04-14 01:06:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.789, "size": 602}
+[2025-04-14 01:06:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.249, "size": 638}
+[2025-04-14 01:06:10] [Process-3:31] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.849, "size": 950}
+[2025-04-14 01:06:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.551, "size": 791}
+[2025-04-14 01:06:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.991, "size": 492}
+[2025-04-14 01:06:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.56, "size": 933}
+[2025-04-14 01:06:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.573, "size": 197}
+[2025-04-14 01:06:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.128, "size": 460}
+[2025-04-14 01:06:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.617, "size": 463}
+[2025-04-14 01:06:10] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.570s | P90: 0.931s | P99: 0.993s
+[2025-04-14 01:06:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.574, "size": 113}
+[2025-04-14 01:06:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.557, "size": 585}
+[2025-04-14 01:06:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.613, "size": 205}
+[2025-04-14 01:06:11] [Process-3:32] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.738, "size": 259}
+[2025-04-14 01:06:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.607, "size": 457}
+[2025-04-14 01:06:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.889, "size": 249}
+[2025-04-14 01:06:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.968, "size": 941}
+[2025-04-14 01:06:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.743, "size": 277}
+[2025-04-14 01:06:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.255, "size": 672}
+[2025-04-14 01:06:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.441, "size": 589}
+[2025-04-14 01:06:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.602, "size": 343}
+[2025-04-14 01:06:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.286, "size": 586}
+[2025-04-14 01:06:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.367, "size": 166}
+[2025-04-14 01:06:12] [Process-3:33] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.832, "size": 592}
+[2025-04-14 01:06:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.758, "size": 837}
+[2025-04-14 01:06:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.631, "size": 327}
+[2025-04-14 01:06:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.524, "size": 684}
+[2025-04-14 01:06:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.401, "size": 235}
+[2025-04-14 01:06:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.225, "size": 547}
+[2025-04-14 01:06:12] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.573s | P90: 0.931s | P99: 0.993s
+[2025-04-14 01:06:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.522, "size": 258}
+[2025-04-14 01:06:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.682, "size": 514}
+[2025-04-14 01:06:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.252, "size": 315}
+[2025-04-14 01:06:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.784, "size": 292}
+[2025-04-14 01:06:13] [Process-3:34] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.322, "size": 775}
+[2025-04-14 01:06:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.187, "size": 335}
+[2025-04-14 01:06:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.653, "size": 278}
+[2025-04-14 01:06:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.912, "size": 362}
+[2025-04-14 01:06:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.907, "size": 620}
+[2025-04-14 01:06:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.324, "size": 517}
+[2025-04-14 01:06:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.963, "size": 447}
+[2025-04-14 01:06:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.917, "size": 485}
+[2025-04-14 01:06:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.595, "size": 113}
+[2025-04-14 01:06:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.457, "size": 984}
+[2025-04-14 01:06:14] [Process-3:35] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.358, "size": 623}
+[2025-04-14 01:06:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.622, "size": 734}
+[2025-04-14 01:06:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.461, "size": 831}
+[2025-04-14 01:06:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.199, "size": 459}
+[2025-04-14 01:06:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.295, "size": 379}
+[2025-04-14 01:06:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.41, "size": 801}
+[2025-04-14 01:06:14] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.574s | P90: 0.929s | P99: 0.993s
+[2025-04-14 01:06:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.318, "size": 989}
+[2025-04-14 01:06:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.656, "size": 296}
+[2025-04-14 01:06:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.454, "size": 192}
+[2025-04-14 01:06:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.305, "size": 693}
+[2025-04-14 01:06:15] [Process-3:36] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.995, "size": 691}
+[2025-04-14 01:06:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.9, "size": 1000}
+[2025-04-14 01:06:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.482, "size": 266}
+[2025-04-14 01:06:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.976, "size": 800}
+[2025-04-14 01:06:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.537, "size": 757}
+[2025-04-14 01:06:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.791, "size": 820}
+[2025-04-14 01:06:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.239, "size": 830}
+[2025-04-14 01:06:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.112, "size": 321}
+[2025-04-14 01:06:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.438, "size": 302}
+[2025-04-14 01:06:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.897, "size": 757}
+[2025-04-14 01:06:16] [Process-3:37] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.726, "size": 982}
+[2025-04-14 01:06:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.326, "size": 447}
+[2025-04-14 01:06:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.304, "size": 410}
+[2025-04-14 01:06:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.434, "size": 559}
+[2025-04-14 01:06:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.538, "size": 299}
+[2025-04-14 01:06:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.685, "size": 943}
+[2025-04-14 01:06:16] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.570s | P90: 0.929s | P99: 0.994s
+[2025-04-14 01:06:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.305, "size": 792}
+[2025-04-14 01:06:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.909, "size": 701}
+[2025-04-14 01:06:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.501, "size": 107}
+[2025-04-14 01:06:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.593, "size": 279}
+[2025-04-14 01:06:17] [Process-3:38] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.598, "size": 986}
+[2025-04-14 01:06:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.412, "size": 829}
+[2025-04-14 01:06:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.544, "size": 824}
+[2025-04-14 01:06:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.878, "size": 414}
+[2025-04-14 01:06:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.847, "size": 494}
+[2025-04-14 01:06:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.587, "size": 618}
+[2025-04-14 01:06:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.612, "size": 670}
+[2025-04-14 01:06:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.462, "size": 490}
+[2025-04-14 01:06:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.909, "size": 555}
+[2025-04-14 01:06:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.262, "size": 536}
+[2025-04-14 01:06:18] [Process-3:39] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.807, "size": 578}
+[2025-04-14 01:06:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.657, "size": 962}
+[2025-04-14 01:06:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.188, "size": 492}
+[2025-04-14 01:06:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.29, "size": 782}
+[2025-04-14 01:06:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.912, "size": 963}
+[2025-04-14 01:06:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.583, "size": 997}
+[2025-04-14 01:06:18] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.570s | P90: 0.925s | P99: 0.994s
+[2025-04-14 01:06:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.811, "size": 635}
+[2025-04-14 01:06:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.292, "size": 706}
+[2025-04-14 01:06:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.306, "size": 462}
+[2025-04-14 01:06:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.745, "size": 421}
+[2025-04-14 01:06:19] [Process-3:40] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.294, "size": 864}
+[2025-04-14 01:06:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.596, "size": 191}
+[2025-04-14 01:06:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.531, "size": 839}
+[2025-04-14 01:06:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.757, "size": 582}
+[2025-04-14 01:06:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.248, "size": 755}
+[2025-04-14 01:06:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.798, "size": 973}
+[2025-04-14 01:06:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.201, "size": 400}
+[2025-04-14 01:06:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.916, "size": 367}
+[2025-04-14 01:06:20] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.871, "size": 945}
+[2025-04-14 01:06:20] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.449, "size": 740}
+[2025-04-14 01:06:20] [Process-3:41] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:20] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.341, "size": 492}
+[2025-04-14 01:06:20] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.514, "size": 681}
+[2025-04-14 01:06:20] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.774, "size": 479}
+[2025-04-14 01:06:20] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.997, "size": 296}
+[2025-04-14 01:06:20] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.294, "size": 255}
+[2025-04-14 01:06:20] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.571s | P90: 0.918s | P99: 0.994s
+[2025-04-14 01:06:20] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.512, "size": 589}
+[2025-04-14 01:06:20] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.607, "size": 969}
+[2025-04-14 01:06:20] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.341, "size": 817}
+[2025-04-14 01:06:21] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.687, "size": 427}
+[2025-04-14 01:06:21] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.355, "size": 583}
+[2025-04-14 01:06:21] [Process-3:42] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:21] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.807, "size": 489}
+[2025-04-14 01:06:21] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.285, "size": 449}
+[2025-04-14 01:06:21] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.591, "size": 780}
+[2025-04-14 01:06:21] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.452, "size": 764}
+[2025-04-14 01:06:21] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.81, "size": 852}
+[2025-04-14 01:06:21] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.568, "size": 849}
+[2025-04-14 01:06:21] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.675, "size": 373}
+[2025-04-14 01:06:21] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.498, "size": 722}
+[2025-04-14 01:06:22] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.132, "size": 810}
+[2025-04-14 01:06:22] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.969, "size": 196}
+[2025-04-14 01:06:22] [Process-3:43] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:22] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.434, "size": 873}
+[2025-04-14 01:06:22] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.138, "size": 939}
+[2025-04-14 01:06:22] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.966, "size": 979}
+[2025-04-14 01:06:22] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.293, "size": 333}
+[2025-04-14 01:06:22] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.889, "size": 287}
+[2025-04-14 01:06:22] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.570s | P90: 0.918s | P99: 0.994s
+[2025-04-14 01:06:22] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.544, "size": 780}
+[2025-04-14 01:06:22] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.926, "size": 587}
+[2025-04-14 01:06:23] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.696, "size": 635}
+[2025-04-14 01:06:23] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.681, "size": 385}
+[2025-04-14 01:06:23] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.492, "size": 464}
+[2025-04-14 01:06:23] [Process-3:44] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:23] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.948, "size": 363}
+[2025-04-14 01:06:23] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.984, "size": 345}
+[2025-04-14 01:06:23] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.507, "size": 940}
+[2025-04-14 01:06:23] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.83, "size": 256}
+[2025-04-14 01:06:23] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.927, "size": 971}
+[2025-04-14 01:06:23] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.753, "size": 744}
+[2025-04-14 01:06:23] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.777, "size": 967}
+[2025-04-14 01:06:24] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.999, "size": 743}
+[2025-04-14 01:06:24] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.757, "size": 323}
+[2025-04-14 01:06:24] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.188, "size": 970}
+[2025-04-14 01:06:24] [Process-3:45] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:24] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.873, "size": 159}
+[2025-04-14 01:06:24] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.659, "size": 120}
+[2025-04-14 01:06:24] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.211, "size": 555}
+[2025-04-14 01:06:24] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.812, "size": 477}
+[2025-04-14 01:06:24] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.57, "size": 909}
+[2025-04-14 01:06:24] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.574s | P90: 0.926s | P99: 0.994s
+[2025-04-14 01:06:24] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.559, "size": 379}
+[2025-04-14 01:06:24] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.275, "size": 600}
+[2025-04-14 01:06:25] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.775, "size": 808}
+[2025-04-14 01:06:25] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.752, "size": 762}
+[2025-04-14 01:06:25] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.519, "size": 581}
+[2025-04-14 01:06:25] [Process-3:46] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:25] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.322, "size": 755}
+[2025-04-14 01:06:25] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.201, "size": 558}
+[2025-04-14 01:06:25] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.194, "size": 592}
+[2025-04-14 01:06:25] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.116, "size": 526}
+[2025-04-14 01:06:25] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.445, "size": 679}
+[2025-04-14 01:06:25] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.652, "size": 317}
+[2025-04-14 01:06:25] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.143, "size": 622}
+[2025-04-14 01:06:26] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.332, "size": 419}
+[2025-04-14 01:06:26] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.327, "size": 548}
+[2025-04-14 01:06:26] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.347, "size": 725}
+[2025-04-14 01:06:26] [Process-3:47] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:26] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.332, "size": 297}
+[2025-04-14 01:06:26] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.164, "size": 161}
+[2025-04-14 01:06:26] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.104, "size": 988}
+[2025-04-14 01:06:26] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.33, "size": 570}
+[2025-04-14 01:06:26] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.438, "size": 867}
+[2025-04-14 01:06:26] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.570s | P90: 0.925s | P99: 0.994s
+[2025-04-14 01:06:26] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.368, "size": 792}
+[2025-04-14 01:06:26] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.121, "size": 431}
+[2025-04-14 01:06:27] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.121, "size": 812}
+[2025-04-14 01:06:27] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.552, "size": 834}
+[2025-04-14 01:06:27] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.379, "size": 448}
+[2025-04-14 01:06:27] [Process-3:48] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:27] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.568, "size": 456}
+[2025-04-14 01:06:27] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.221, "size": 613}
+[2025-04-14 01:06:27] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.124, "size": 753}
+[2025-04-14 01:06:27] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.982, "size": 811}
+[2025-04-14 01:06:27] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.343, "size": 334}
+[2025-04-14 01:06:27] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.664, "size": 673}
+[2025-04-14 01:06:27] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.767, "size": 402}
+[2025-04-14 01:06:28] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.563, "size": 942}
+[2025-04-14 01:06:28] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.12, "size": 770}
+[2025-04-14 01:06:28] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.666, "size": 153}
+[2025-04-14 01:06:28] [Process-3:49] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:28] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.693, "size": 678}
+[2025-04-14 01:06:28] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.862, "size": 506}
+[2025-04-14 01:06:28] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.81, "size": 818}
+[2025-04-14 01:06:28] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.856, "size": 712}
+[2025-04-14 01:06:28] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.563s | P90: 0.923s | P99: 0.994s
+[2025-04-14 01:06:28] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.814, "size": 207}
+[2025-04-14 01:06:28] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.533, "size": 901}
+[2025-04-14 01:06:28] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.48, "size": 488}
+[2025-04-14 01:06:29] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.555, "size": 193}
+[2025-04-14 01:06:29] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.287, "size": 697}
+[2025-04-14 01:06:29] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.493, "size": 543}
+[2025-04-14 01:06:29] [Process-3:50] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:29] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.977, "size": 950}
+[2025-04-14 01:06:29] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.503, "size": 219}
+[2025-04-14 01:06:29] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.55, "size": 570}
+[2025-04-14 01:06:29] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.469, "size": 951}
+[2025-04-14 01:06:29] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.325, "size": 180}
+[2025-04-14 01:06:29] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.566, "size": 593}
+[2025-04-14 01:06:30] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.567, "size": 333}
+[2025-04-14 01:06:30] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.374, "size": 404}
+[2025-04-14 01:06:30] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.94, "size": 420}
+[2025-04-14 01:06:30] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.644, "size": 257}
+[2025-04-14 01:06:30] [Process-3:51] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:30] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.667, "size": 160}
+[2025-04-14 01:06:30] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.967, "size": 812}
+[2025-04-14 01:06:30] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.175, "size": 687}
+[2025-04-14 01:06:30] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.731, "size": 632}
+[2025-04-14 01:06:30] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.563s | P90: 0.923s | P99: 0.994s
+[2025-04-14 01:06:30] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.859, "size": 229}
+[2025-04-14 01:06:30] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.413, "size": 653}
+[2025-04-14 01:06:31] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.576, "size": 114}
+[2025-04-14 01:06:31] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.621, "size": 378}
+[2025-04-14 01:06:31] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.881, "size": 196}
+[2025-04-14 01:06:31] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.28, "size": 285}
+[2025-04-14 01:06:31] [Process-3:52] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:31] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.521, "size": 861}
+[2025-04-14 01:06:31] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.363, "size": 303}
+[2025-04-14 01:06:31] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.799, "size": 895}
+[2025-04-14 01:06:31] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.438, "size": 559}
+[2025-04-14 01:06:31] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.856, "size": 420}
+[2025-04-14 01:06:31] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.677, "size": 386}
+[2025-04-14 01:06:32] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.581, "size": 854}
+[2025-04-14 01:06:32] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.508, "size": 567}
+[2025-04-14 01:06:32] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.423, "size": 335}
+[2025-04-14 01:06:32] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.209, "size": 744}
+[2025-04-14 01:06:32] [Process-3:53] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:32] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.572, "size": 360}
+[2025-04-14 01:06:32] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.947, "size": 906}
+[2025-04-14 01:06:32] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.922, "size": 276}
+[2025-04-14 01:06:32] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.345, "size": 491}
+[2025-04-14 01:06:32] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.565s | P90: 0.918s | P99: 0.994s
+[2025-04-14 01:06:32] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.175, "size": 900}
+[2025-04-14 01:06:32] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.458, "size": 126}
+[2025-04-14 01:06:33] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.723, "size": 151}
+[2025-04-14 01:06:33] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.265, "size": 435}
+[2025-04-14 01:06:33] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.58, "size": 301}
+[2025-04-14 01:06:33] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.732, "size": 415}
+[2025-04-14 01:06:33] [Process-3:54] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:33] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.898, "size": 520}
+[2025-04-14 01:06:33] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.584, "size": 524}
+[2025-04-14 01:06:33] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.262, "size": 103}
+[2025-04-14 01:06:33] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.303, "size": 838}
+[2025-04-14 01:06:33] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.481, "size": 472}
+[2025-04-14 01:06:33] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.817, "size": 367}
+[2025-04-14 01:06:34] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.508, "size": 633}
+[2025-04-14 01:06:34] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.406, "size": 290}
+[2025-04-14 01:06:34] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.872, "size": 924}
+[2025-04-14 01:06:34] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.99, "size": 680}
+[2025-04-14 01:06:34] [Process-3:55] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:34] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.209, "size": 385}
+[2025-04-14 01:06:34] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.684, "size": 455}
+[2025-04-14 01:06:34] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.998, "size": 736}
+[2025-04-14 01:06:34] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.756, "size": 598}
+[2025-04-14 01:06:34] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.565s | P90: 0.922s | P99: 0.994s
+[2025-04-14 01:06:34] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.625, "size": 684}
+[2025-04-14 01:06:34] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.323, "size": 583}
+[2025-04-14 01:06:35] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.68, "size": 339}
+[2025-04-14 01:06:35] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.434, "size": 470}
+[2025-04-14 01:06:35] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.966, "size": 569}
+[2025-04-14 01:06:35] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.87, "size": 843}
+[2025-04-14 01:06:35] [Process-3:56] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:35] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.804, "size": 578}
+[2025-04-14 01:06:35] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.928, "size": 918}
+[2025-04-14 01:06:35] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.284, "size": 208}
+[2025-04-14 01:06:35] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.529, "size": 935}
+[2025-04-14 01:06:35] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.803, "size": 561}
+[2025-04-14 01:06:35] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.689, "size": 776}
+[2025-04-14 01:06:36] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.532, "size": 554}
+[2025-04-14 01:06:36] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.66, "size": 575}
+[2025-04-14 01:06:36] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.294, "size": 178}
+[2025-04-14 01:06:36] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.904, "size": 233}
+[2025-04-14 01:06:36] [Process-3:57] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:36] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.868, "size": 596}
+[2025-04-14 01:06:36] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.289, "size": 715}
+[2025-04-14 01:06:36] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.4, "size": 294}
+[2025-04-14 01:06:36] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.561, "size": 460}
+[2025-04-14 01:06:36] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.567s | P90: 0.923s | P99: 0.994s
+[2025-04-14 01:06:36] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.756, "size": 741}
+[2025-04-14 01:06:36] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.917, "size": 377}
+[2025-04-14 01:06:37] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.559, "size": 703}
+[2025-04-14 01:06:37] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.399, "size": 104}
+[2025-04-14 01:06:37] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.358, "size": 546}
+[2025-04-14 01:06:37] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.766, "size": 567}
+[2025-04-14 01:06:37] [Process-3:58] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:37] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.339, "size": 987}
+[2025-04-14 01:06:37] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.505, "size": 503}
+[2025-04-14 01:06:37] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.928, "size": 840}
+[2025-04-14 01:06:37] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.545, "size": 998}
+[2025-04-14 01:06:37] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.64, "size": 557}
+[2025-04-14 01:06:37] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.367, "size": 150}
+[2025-04-14 01:06:38] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.916, "size": 809}
+[2025-04-14 01:06:38] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.476, "size": 544}
+[2025-04-14 01:06:38] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.649, "size": 161}
+[2025-04-14 01:06:38] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.734, "size": 970}
+[2025-04-14 01:06:38] [Process-3:59] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:38] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.626, "size": 356}
+[2025-04-14 01:06:38] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.705, "size": 134}
+[2025-04-14 01:06:38] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.686, "size": 778}
+[2025-04-14 01:06:38] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.567s | P90: 0.922s | P99: 0.994s
+[2025-04-14 01:06:38] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.619, "size": 799}
+[2025-04-14 01:06:38] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.258, "size": 397}
+[2025-04-14 01:06:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.474, "size": 398}
+[2025-04-14 01:06:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.755, "size": 818}
+[2025-04-14 01:06:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.984, "size": 197}
+[2025-04-14 01:06:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.259, "size": 200}
+[2025-04-14 01:06:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.934, "size": 174}
+[2025-04-14 01:06:39] [Process-3:60] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.199, "size": 761}
+[2025-04-14 01:06:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.47, "size": 834}
+[2025-04-14 01:06:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.527, "size": 281}
+[2025-04-14 01:06:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.828, "size": 301}
+[2025-04-14 01:06:39] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.512, "size": 639}
+[2025-04-14 01:06:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.635, "size": 560}
+[2025-04-14 01:06:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.478, "size": 999}
+[2025-04-14 01:06:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.414, "size": 710}
+[2025-04-14 01:06:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.934, "size": 628}
+[2025-04-14 01:06:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.331, "size": 337}
+[2025-04-14 01:06:40] [Process-3:61] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.493, "size": 478}
+[2025-04-14 01:06:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.988, "size": 864}
+[2025-04-14 01:06:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.401, "size": 603}
+[2025-04-14 01:06:40] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.567s | P90: 0.923s | P99: 0.994s
+[2025-04-14 01:06:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.509, "size": 810}
+[2025-04-14 01:06:40] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.999, "size": 391}
+[2025-04-14 01:06:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.133, "size": 638}
+[2025-04-14 01:06:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.182, "size": 533}
+[2025-04-14 01:06:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.126, "size": 615}
+[2025-04-14 01:06:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.433, "size": 537}
+[2025-04-14 01:06:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.352, "size": 180}
+[2025-04-14 01:06:41] [Process-3:62] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.943, "size": 967}
+[2025-04-14 01:06:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.337, "size": 212}
+[2025-04-14 01:06:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.164, "size": 170}
+[2025-04-14 01:06:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.605, "size": 904}
+[2025-04-14 01:06:41] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.441, "size": 179}
+[2025-04-14 01:06:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.234, "size": 506}
+[2025-04-14 01:06:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.184, "size": 382}
+[2025-04-14 01:06:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.95, "size": 501}
+[2025-04-14 01:06:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.86, "size": 981}
+[2025-04-14 01:06:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.46, "size": 772}
+[2025-04-14 01:06:42] [Process-3:63] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.589, "size": 693}
+[2025-04-14 01:06:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.329, "size": 364}
+[2025-04-14 01:06:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.931, "size": 968}
+[2025-04-14 01:06:42] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.563s | P90: 0.925s | P99: 0.994s
+[2025-04-14 01:06:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.203, "size": 189}
+[2025-04-14 01:06:42] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.242, "size": 706}
+[2025-04-14 01:06:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.261, "size": 261}
+[2025-04-14 01:06:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.411, "size": 106}
+[2025-04-14 01:06:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.909, "size": 283}
+[2025-04-14 01:06:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.142, "size": 168}
+[2025-04-14 01:06:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.231, "size": 175}
+[2025-04-14 01:06:43] [Process-3:64] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.459, "size": 656}
+[2025-04-14 01:06:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.872, "size": 567}
+[2025-04-14 01:06:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.946, "size": 235}
+[2025-04-14 01:06:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.492, "size": 491}
+[2025-04-14 01:06:43] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.337, "size": 547}
+[2025-04-14 01:06:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.194, "size": 799}
+[2025-04-14 01:06:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.162, "size": 276}
+[2025-04-14 01:06:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.98, "size": 545}
+[2025-04-14 01:06:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.296, "size": 670}
+[2025-04-14 01:06:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.188, "size": 548}
+[2025-04-14 01:06:44] [Process-3:65] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.639, "size": 657}
+[2025-04-14 01:06:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.369, "size": 319}
+[2025-04-14 01:06:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.766, "size": 803}
+[2025-04-14 01:06:44] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.559s | P90: 0.926s | P99: 0.994s
+[2025-04-14 01:06:44] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.698, "size": 265}
+[2025-04-14 01:06:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.819, "size": 922}
+[2025-04-14 01:06:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.145, "size": 562}
+[2025-04-14 01:06:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.905, "size": 789}
+[2025-04-14 01:06:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.51, "size": 996}
+[2025-04-14 01:06:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.801, "size": 162}
+[2025-04-14 01:06:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.434, "size": 939}
+[2025-04-14 01:06:45] [Process-3:66] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.926, "size": 575}
+[2025-04-14 01:06:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.69, "size": 213}
+[2025-04-14 01:06:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.475, "size": 196}
+[2025-04-14 01:06:45] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.169, "size": 795}
+[2025-04-14 01:06:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.292, "size": 497}
+[2025-04-14 01:06:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.425, "size": 453}
+[2025-04-14 01:06:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.411, "size": 724}
+[2025-04-14 01:06:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.545, "size": 388}
+[2025-04-14 01:06:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.298, "size": 120}
+[2025-04-14 01:06:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.345, "size": 828}
+[2025-04-14 01:06:46] [Process-3:67] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.608, "size": 397}
+[2025-04-14 01:06:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.704, "size": 805}
+[2025-04-14 01:06:46] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.558s | P90: 0.925s | P99: 0.994s
+[2025-04-14 01:06:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.772, "size": 494}
+[2025-04-14 01:06:46] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.35, "size": 575}
+[2025-04-14 01:06:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.39, "size": 189}
+[2025-04-14 01:06:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.297, "size": 141}
+[2025-04-14 01:06:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.817, "size": 323}
+[2025-04-14 01:06:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.279, "size": 166}
+[2025-04-14 01:06:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.567, "size": 771}
+[2025-04-14 01:06:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.382, "size": 253}
+[2025-04-14 01:06:47] [Process-3:68] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.905, "size": 610}
+[2025-04-14 01:06:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.52, "size": 999}
+[2025-04-14 01:06:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.175, "size": 906}
+[2025-04-14 01:06:47] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.286, "size": 742}
+[2025-04-14 01:06:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.792, "size": 968}
+[2025-04-14 01:06:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.822, "size": 890}
+[2025-04-14 01:06:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.24, "size": 274}
+[2025-04-14 01:06:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.231, "size": 570}
+[2025-04-14 01:06:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.737, "size": 407}
+[2025-04-14 01:06:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.217, "size": 632}
+[2025-04-14 01:06:48] [Process-3:69] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.625, "size": 453}
+[2025-04-14 01:06:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.273, "size": 289}
+[2025-04-14 01:06:48] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.557s | P90: 0.923s | P99: 0.994s
+[2025-04-14 01:06:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.442, "size": 284}
+[2025-04-14 01:06:48] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.68, "size": 411}
+[2025-04-14 01:06:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.703, "size": 469}
+[2025-04-14 01:06:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.299, "size": 150}
+[2025-04-14 01:06:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.354, "size": 691}
+[2025-04-14 01:06:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.497, "size": 557}
+[2025-04-14 01:06:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.879, "size": 451}
+[2025-04-14 01:06:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.274, "size": 1000}
+[2025-04-14 01:06:49] [Process-3:70] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.284, "size": 434}
+[2025-04-14 01:06:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.447, "size": 906}
+[2025-04-14 01:06:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.189, "size": 532}
+[2025-04-14 01:06:49] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.595, "size": 435}
+[2025-04-14 01:06:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.628, "size": 175}
+[2025-04-14 01:06:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.542, "size": 156}
+[2025-04-14 01:06:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.998, "size": 856}
+[2025-04-14 01:06:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.17, "size": 857}
+[2025-04-14 01:06:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.933, "size": 181}
+[2025-04-14 01:06:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.762, "size": 824}
+[2025-04-14 01:06:50] [Process-3:71] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.163, "size": 804}
+[2025-04-14 01:06:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.649, "size": 346}
+[2025-04-14 01:06:50] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.556s | P90: 0.923s | P99: 0.994s
+[2025-04-14 01:06:50] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.867, "size": 389}
+[2025-04-14 01:06:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.856, "size": 727}
+[2025-04-14 01:06:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.452, "size": 983}
+[2025-04-14 01:06:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.516, "size": 784}
+[2025-04-14 01:06:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.559, "size": 479}
+[2025-04-14 01:06:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.891, "size": 594}
+[2025-04-14 01:06:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.25, "size": 422}
+[2025-04-14 01:06:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.453, "size": 325}
+[2025-04-14 01:06:51] [Process-3:72] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.671, "size": 595}
+[2025-04-14 01:06:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.502, "size": 753}
+[2025-04-14 01:06:51] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.544, "size": 991}
+[2025-04-14 01:06:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.221, "size": 342}
+[2025-04-14 01:06:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.816, "size": 163}
+[2025-04-14 01:06:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.832, "size": 737}
+[2025-04-14 01:06:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.999, "size": 805}
+[2025-04-14 01:06:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.615, "size": 889}
+[2025-04-14 01:06:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.63, "size": 483}
+[2025-04-14 01:06:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.239, "size": 702}
+[2025-04-14 01:06:52] [Process-3:73] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.905, "size": 226}
+[2025-04-14 01:06:52] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.557s | P90: 0.922s | P99: 0.995s
+[2025-04-14 01:06:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.725, "size": 900}
+[2025-04-14 01:06:52] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.651, "size": 858}
+[2025-04-14 01:06:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.838, "size": 752}
+[2025-04-14 01:06:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.157, "size": 945}
+[2025-04-14 01:06:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.813, "size": 681}
+[2025-04-14 01:06:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.632, "size": 831}
+[2025-04-14 01:06:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.626, "size": 643}
+[2025-04-14 01:06:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.95, "size": 785}
+[2025-04-14 01:06:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.689, "size": 765}
+[2025-04-14 01:06:53] [Process-3:74] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.777, "size": 719}
+[2025-04-14 01:06:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.5, "size": 856}
+[2025-04-14 01:06:53] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.921, "size": 186}
+[2025-04-14 01:06:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.27, "size": 434}
+[2025-04-14 01:06:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.791, "size": 161}
+[2025-04-14 01:06:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.988, "size": 279}
+[2025-04-14 01:06:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.241, "size": 607}
+[2025-04-14 01:06:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.431, "size": 858}
+[2025-04-14 01:06:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.618, "size": 961}
+[2025-04-14 01:06:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.968, "size": 649}
+[2025-04-14 01:06:54] [Process-3:75] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.332, "size": 573}
+[2025-04-14 01:06:54] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.560s | P90: 0.923s | P99: 0.995s
+[2025-04-14 01:06:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.99, "size": 769}
+[2025-04-14 01:06:54] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.653, "size": 637}
+[2025-04-14 01:06:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.833, "size": 671}
+[2025-04-14 01:06:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.899, "size": 771}
+[2025-04-14 01:06:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.361, "size": 463}
+[2025-04-14 01:06:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.435, "size": 614}
+[2025-04-14 01:06:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.887, "size": 382}
+[2025-04-14 01:06:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.181, "size": 864}
+[2025-04-14 01:06:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.93, "size": 958}
+[2025-04-14 01:06:55] [Process-3:76] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.618, "size": 356}
+[2025-04-14 01:06:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.471, "size": 215}
+[2025-04-14 01:06:55] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.796, "size": 584}
+[2025-04-14 01:06:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.311, "size": 732}
+[2025-04-14 01:06:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.243, "size": 964}
+[2025-04-14 01:06:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.596, "size": 430}
+[2025-04-14 01:06:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.826, "size": 248}
+[2025-04-14 01:06:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.949, "size": 900}
+[2025-04-14 01:06:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.581, "size": 640}
+[2025-04-14 01:06:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.868, "size": 569}
+[2025-04-14 01:06:56] [Process-3:77] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.947, "size": 760}
+[2025-04-14 01:06:56] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.563s | P90: 0.925s | P99: 0.994s
+[2025-04-14 01:06:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.178, "size": 364}
+[2025-04-14 01:06:56] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.595, "size": 234}
+[2025-04-14 01:06:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.15, "size": 768}
+[2025-04-14 01:06:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.355, "size": 329}
+[2025-04-14 01:06:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.653, "size": 506}
+[2025-04-14 01:06:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.746, "size": 799}
+[2025-04-14 01:06:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.891, "size": 344}
+[2025-04-14 01:06:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.577, "size": 543}
+[2025-04-14 01:06:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.622, "size": 657}
+[2025-04-14 01:06:57] [Process-3:78] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.476, "size": 304}
+[2025-04-14 01:06:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.353, "size": 664}
+[2025-04-14 01:06:57] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.842, "size": 262}
+[2025-04-14 01:06:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.324, "size": 133}
+[2025-04-14 01:06:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.132, "size": 418}
+[2025-04-14 01:06:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.702, "size": 633}
+[2025-04-14 01:06:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.454, "size": 590}
+[2025-04-14 01:06:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.5, "size": 916}
+[2025-04-14 01:06:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.102, "size": 873}
+[2025-04-14 01:06:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.428, "size": 879}
+[2025-04-14 01:06:58] [Process-3:79] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.713, "size": 811}
+[2025-04-14 01:06:58] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.562s | P90: 0.923s | P99: 0.994s
+[2025-04-14 01:06:58] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.88, "size": 835}
+[2025-04-14 01:06:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.67, "size": 152}
+[2025-04-14 01:06:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.625, "size": 908}
+[2025-04-14 01:06:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.88, "size": 311}
+[2025-04-14 01:06:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.634, "size": 252}
+[2025-04-14 01:06:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.849, "size": 835}
+[2025-04-14 01:06:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.196, "size": 171}
+[2025-04-14 01:06:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.431, "size": 114}
+[2025-04-14 01:06:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.842, "size": 135}
+[2025-04-14 01:06:59] [Process-3:80] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:06:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.225, "size": 547}
+[2025-04-14 01:06:59] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.447, "size": 640}
+[2025-04-14 01:07:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.16, "size": 647}
+[2025-04-14 01:07:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.966, "size": 166}
+[2025-04-14 01:07:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.586, "size": 980}
+[2025-04-14 01:07:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.597, "size": 391}
+[2025-04-14 01:07:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.767, "size": 854}
+[2025-04-14 01:07:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.822, "size": 133}
+[2025-04-14 01:07:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.151, "size": 865}
+[2025-04-14 01:07:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.703, "size": 437}
+[2025-04-14 01:07:00] [Process-3:81] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.682, "size": 741}
+[2025-04-14 01:07:00] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.566s | P90: 0.922s | P99: 0.994s
+[2025-04-14 01:07:00] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.301, "size": 327}
+[2025-04-14 01:07:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.238, "size": 495}
+[2025-04-14 01:07:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.13, "size": 138}
+[2025-04-14 01:07:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.918, "size": 604}
+[2025-04-14 01:07:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.105, "size": 950}
+[2025-04-14 01:07:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.828, "size": 438}
+[2025-04-14 01:07:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.917, "size": 827}
+[2025-04-14 01:07:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.371, "size": 813}
+[2025-04-14 01:07:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.936, "size": 720}
+[2025-04-14 01:07:01] [Process-3:82] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.942, "size": 344}
+[2025-04-14 01:07:01] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.296, "size": 710}
+[2025-04-14 01:07:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.76, "size": 954}
+[2025-04-14 01:07:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.894, "size": 806}
+[2025-04-14 01:07:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.686, "size": 594}
+[2025-04-14 01:07:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.722, "size": 718}
+[2025-04-14 01:07:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.954, "size": 730}
+[2025-04-14 01:07:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.314, "size": 383}
+[2025-04-14 01:07:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.326, "size": 592}
+[2025-04-14 01:07:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.952, "size": 662}
+[2025-04-14 01:07:02] [Process-3:83] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:02] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.567s | P90: 0.925s | P99: 0.994s
+[2025-04-14 01:07:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.932, "size": 199}
+[2025-04-14 01:07:02] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.95, "size": 996}
+[2025-04-14 01:07:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.984, "size": 111}
+[2025-04-14 01:07:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.29, "size": 623}
+[2025-04-14 01:07:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.674, "size": 905}
+[2025-04-14 01:07:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.855, "size": 682}
+[2025-04-14 01:07:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.996, "size": 401}
+[2025-04-14 01:07:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.939, "size": 334}
+[2025-04-14 01:07:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.474, "size": 455}
+[2025-04-14 01:07:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.609, "size": 508}
+[2025-04-14 01:07:03] [Process-3:84] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.679, "size": 259}
+[2025-04-14 01:07:03] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.335, "size": 586}
+[2025-04-14 01:07:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.837, "size": 285}
+[2025-04-14 01:07:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.712, "size": 291}
+[2025-04-14 01:07:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.81, "size": 824}
+[2025-04-14 01:07:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.41, "size": 980}
+[2025-04-14 01:07:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.959, "size": 737}
+[2025-04-14 01:07:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.175, "size": 846}
+[2025-04-14 01:07:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.212, "size": 319}
+[2025-04-14 01:07:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.149, "size": 493}
+[2025-04-14 01:07:04] [Process-3:85] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:04] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.569s | P90: 0.927s | P99: 0.995s
+[2025-04-14 01:07:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.316, "size": 842}
+[2025-04-14 01:07:04] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.747, "size": 922}
+[2025-04-14 01:07:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.718, "size": 737}
+[2025-04-14 01:07:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.986, "size": 550}
+[2025-04-14 01:07:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.666, "size": 213}
+[2025-04-14 01:07:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.468, "size": 997}
+[2025-04-14 01:07:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.202, "size": 832}
+[2025-04-14 01:07:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.141, "size": 286}
+[2025-04-14 01:07:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.304, "size": 768}
+[2025-04-14 01:07:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.914, "size": 801}
+[2025-04-14 01:07:05] [Process-3:86] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.804, "size": 678}
+[2025-04-14 01:07:05] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.298, "size": 899}
+[2025-04-14 01:07:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.526, "size": 922}
+[2025-04-14 01:07:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.602, "size": 400}
+[2025-04-14 01:07:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.541, "size": 347}
+[2025-04-14 01:07:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.666, "size": 576}
+[2025-04-14 01:07:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.827, "size": 427}
+[2025-04-14 01:07:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.269, "size": 578}
+[2025-04-14 01:07:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.337, "size": 889}
+[2025-04-14 01:07:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.518, "size": 844}
+[2025-04-14 01:07:06] [Process-3:87] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:06] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.568s | P90: 0.926s | P99: 0.994s
+[2025-04-14 01:07:06] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.36, "size": 418}
+[2025-04-14 01:07:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.475, "size": 678}
+[2025-04-14 01:07:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.115, "size": 552}
+[2025-04-14 01:07:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.19, "size": 898}
+[2025-04-14 01:07:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.165, "size": 192}
+[2025-04-14 01:07:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.916, "size": 314}
+[2025-04-14 01:07:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.937, "size": 980}
+[2025-04-14 01:07:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.951, "size": 333}
+[2025-04-14 01:07:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.887, "size": 739}
+[2025-04-14 01:07:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.505, "size": 722}
+[2025-04-14 01:07:07] [Process-3:88] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:07] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.969, "size": 351}
+[2025-04-14 01:07:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.6, "size": 680}
+[2025-04-14 01:07:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.427, "size": 294}
+[2025-04-14 01:07:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.984, "size": 760}
+[2025-04-14 01:07:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.157, "size": 152}
+[2025-04-14 01:07:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.928, "size": 200}
+[2025-04-14 01:07:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.581, "size": 363}
+[2025-04-14 01:07:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.384, "size": 448}
+[2025-04-14 01:07:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.265, "size": 995}
+[2025-04-14 01:07:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.893, "size": 367}
+[2025-04-14 01:07:08] [Process-3:89] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:08] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.568s | P90: 0.928s | P99: 0.994s
+[2025-04-14 01:07:08] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.193, "size": 601}
+[2025-04-14 01:07:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.737, "size": 550}
+[2025-04-14 01:07:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.747, "size": 718}
+[2025-04-14 01:07:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.917, "size": 860}
+[2025-04-14 01:07:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.994, "size": 165}
+[2025-04-14 01:07:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.393, "size": 793}
+[2025-04-14 01:07:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.913, "size": 699}
+[2025-04-14 01:07:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.901, "size": 942}
+[2025-04-14 01:07:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.876, "size": 416}
+[2025-04-14 01:07:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.555, "size": 409}
+[2025-04-14 01:07:09] [Process-3:90] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:09] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.752, "size": 980}
+[2025-04-14 01:07:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.945, "size": 651}
+[2025-04-14 01:07:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.215, "size": 900}
+[2025-04-14 01:07:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.262, "size": 191}
+[2025-04-14 01:07:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.746, "size": 205}
+[2025-04-14 01:07:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.29, "size": 423}
+[2025-04-14 01:07:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.494, "size": 336}
+[2025-04-14 01:07:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.949, "size": 944}
+[2025-04-14 01:07:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.74, "size": 523}
+[2025-04-14 01:07:10] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.570s | P90: 0.928s | P99: 0.994s
+[2025-04-14 01:07:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.364, "size": 842}
+[2025-04-14 01:07:10] [Process-3:91] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:10] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.565, "size": 765}
+[2025-04-14 01:07:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.531, "size": 842}
+[2025-04-14 01:07:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.993, "size": 921}
+[2025-04-14 01:07:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.483, "size": 631}
+[2025-04-14 01:07:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.867, "size": 886}
+[2025-04-14 01:07:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.534, "size": 232}
+[2025-04-14 01:07:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.973, "size": 731}
+[2025-04-14 01:07:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.991, "size": 437}
+[2025-04-14 01:07:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.184, "size": 135}
+[2025-04-14 01:07:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.534, "size": 662}
+[2025-04-14 01:07:11] [Process-3:92] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:11] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.355, "size": 433}
+[2025-04-14 01:07:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.789, "size": 129}
+[2025-04-14 01:07:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.797, "size": 583}
+[2025-04-14 01:07:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.478, "size": 707}
+[2025-04-14 01:07:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.431, "size": 386}
+[2025-04-14 01:07:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.442, "size": 935}
+[2025-04-14 01:07:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.176, "size": 178}
+[2025-04-14 01:07:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.104, "size": 868}
+[2025-04-14 01:07:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.368, "size": 522}
+[2025-04-14 01:07:12] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.569s | P90: 0.930s | P99: 0.994s
+[2025-04-14 01:07:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.134, "size": 613}
+[2025-04-14 01:07:12] [Process-3:93] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:12] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.403, "size": 193}
+[2025-04-14 01:07:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.928, "size": 754}
+[2025-04-14 01:07:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.874, "size": 572}
+[2025-04-14 01:07:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.189, "size": 974}
+[2025-04-14 01:07:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.332, "size": 767}
+[2025-04-14 01:07:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.451, "size": 784}
+[2025-04-14 01:07:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.112, "size": 341}
+[2025-04-14 01:07:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.893, "size": 808}
+[2025-04-14 01:07:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.834, "size": 917}
+[2025-04-14 01:07:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.962, "size": 874}
+[2025-04-14 01:07:13] [Process-3:94] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:13] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.68, "size": 116}
+[2025-04-14 01:07:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.656, "size": 890}
+[2025-04-14 01:07:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.896, "size": 931}
+[2025-04-14 01:07:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.553, "size": 903}
+[2025-04-14 01:07:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.989, "size": 531}
+[2025-04-14 01:07:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.276, "size": 713}
+[2025-04-14 01:07:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.335, "size": 515}
+[2025-04-14 01:07:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.994, "size": 880}
+[2025-04-14 01:07:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.403, "size": 335}
+[2025-04-14 01:07:14] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.567s | P90: 0.929s | P99: 0.994s
+[2025-04-14 01:07:14] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.136, "size": 656}
+[2025-04-14 01:07:14] [Process-3:95] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.127, "size": 500}
+[2025-04-14 01:07:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.67, "size": 352}
+[2025-04-14 01:07:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.104, "size": 180}
+[2025-04-14 01:07:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.79, "size": 133}
+[2025-04-14 01:07:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.706, "size": 826}
+[2025-04-14 01:07:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.115, "size": 451}
+[2025-04-14 01:07:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.551, "size": 497}
+[2025-04-14 01:07:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.228, "size": 291}
+[2025-04-14 01:07:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.97, "size": 460}
+[2025-04-14 01:07:15] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.58, "size": 905}
+[2025-04-14 01:07:15] [Process-3:96] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.704, "size": 266}
+[2025-04-14 01:07:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.954, "size": 413}
+[2025-04-14 01:07:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.419, "size": 242}
+[2025-04-14 01:07:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.121, "size": 150}
+[2025-04-14 01:07:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.216, "size": 105}
+[2025-04-14 01:07:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.239, "size": 182}
+[2025-04-14 01:07:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.155, "size": 284}
+[2025-04-14 01:07:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.524, "size": 825}
+[2025-04-14 01:07:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.247, "size": 632}
+[2025-04-14 01:07:16] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.567s | P90: 0.930s | P99: 0.994s
+[2025-04-14 01:07:16] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.105, "size": 692}
+[2025-04-14 01:07:16] [Process-3:97] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.147, "size": 866}
+[2025-04-14 01:07:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.543, "size": 568}
+[2025-04-14 01:07:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.101, "size": 959}
+[2025-04-14 01:07:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.656, "size": 609}
+[2025-04-14 01:07:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.997, "size": 223}
+[2025-04-14 01:07:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.692, "size": 469}
+[2025-04-14 01:07:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.341, "size": 518}
+[2025-04-14 01:07:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.788, "size": 320}
+[2025-04-14 01:07:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.713, "size": 517}
+[2025-04-14 01:07:17] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.977, "size": 285}
+[2025-04-14 01:07:18] [Process-3:98] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.499, "size": 469}
+[2025-04-14 01:07:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.538, "size": 411}
+[2025-04-14 01:07:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.604, "size": 238}
+[2025-04-14 01:07:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.767, "size": 255}
+[2025-04-14 01:07:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.669, "size": 858}
+[2025-04-14 01:07:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.968, "size": 628}
+[2025-04-14 01:07:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.64, "size": 255}
+[2025-04-14 01:07:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.627, "size": 243}
+[2025-04-14 01:07:18] [MetricsDashboard] [INFO] 📊 Metrics | P50: 0.566s | P90: 0.931s | P99: 0.994s
+[2025-04-14 01:07:18] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.815, "size": 606}
+[2025-04-14 01:07:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.797, "size": 755}
+[2025-04-14 01:07:19] [Process-3:99] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.954, "size": 142}
+[2025-04-14 01:07:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.561, "size": 254}
+[2025-04-14 01:07:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.78, "size": 745}
+[2025-04-14 01:07:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.961, "size": 644}
+[2025-04-14 01:07:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.288, "size": 611}
+[2025-04-14 01:07:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.997, "size": 462}
+[2025-04-14 01:07:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.616, "size": 245}
+[2025-04-14 01:07:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.64, "size": 419}
+[2025-04-14 01:07:19] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.435, "size": 829}
+[2025-04-14 01:07:20] [MainProcess] [INFO] Read line: {"event": "request", "latency": 0.567, "size": 666}
+[2025-04-14 01:07:20] [Process-3:100] [INFO] Processed 10 latencies in batch.
+[2025-04-14 01:07:20] [MainProcess] [INFO] Finished watching file: data/sample.jsonl
+[2025-04-14 01:07:20] [Dispatcher] [INFO] Dispatcher received poison pill.
+[2025-04-14 01:07:20] [Dispatcher] [INFO] All poison pills received. Shutting down.
+[2025-04-14 01:07:20] [Dispatcher] [INFO] Dispatcher loop terminated.
+[2025-04-14 01:07:20] [MainProcess] [INFO] All components finished. Exiting.
