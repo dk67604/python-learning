@@ -4,7 +4,7 @@ Directed Graph
 
 from collections import defaultdict
 
-WHITE, GRAY, BLACK = 0, 1,2
+WHITE, GRAY, BLACK = 0, 1, 2
 
 def has_cycle(graph):
     color = defaultdict(lambda: WHITE)

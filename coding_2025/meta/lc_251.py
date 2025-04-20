@@ -37,6 +37,9 @@ class Solution:
             if pivot_index < n - k:
                 # Recurse right
                 return quickselect(nums, pivot_index + 1, right, k)
-            elif pivot_index > n - k:
-                # Recurse left
-                return quickselect
+            elif pivot_index > n- k:
+                return quickselect(nums, left, pivot_index - 1, k)
+            else:
+                return nums[pivot_index]
+        
+        return quickselect(nums, 0, len(nums) - 1, k)

@@ -5,7 +5,7 @@ Time Complexity: O(n)
 
 """
 # Definition for a Node.
-class Node:
+class Node(object):
     def __init__(self, val, prev, next, child):
         self.val = val
         self.prev = prev
@@ -13,49 +13,39 @@ class Node:
         self.child = child
 """
 
-class Solution:
-    def flatten(self, head: 'Optional[Node]') -> 'Optional[Node]':
+class Solution(object):
+    def flatten(self, head):
         if not head:
-            return head  # If the list is empty, just return
+            return None  # Return if the list is empty
 
-        def helper(curr):
-            """
-            Recursively flattens the list starting from `curr`.
-            Returns the last node of the flattened list.
-            """
-            last = curr  # To track the tail of the flattened portion
+        # Create a dummy node to simplify edge cases
+        pseudoHead = Node(0, None, head, None)
+        prev = pseudoHead
 
-            while curr:
-                tempNext = curr.next  # Save next pointer in case we overwrite it
+        stack = [head]  # Use a stack for depth-first traversal
 
-                if curr.child:
-                    # Save the child head
-                    child_head = curr.child
+        while stack:
+            curr = stack.pop()  # Pop the current node to process
 
-                    # Recursively flatten the child list, returns the tail of the child chain
-                    child_tail = helper(child_head)
+            # Connect current node with the previous node
+            prev.next = curr
+            curr.prev = prev
 
-                    # Splice the child list into the main list
-                    curr.next = child_head       # Connect current node to child head
-                    child_head.prev = curr       # Set child's prev to current
-                    curr.child = None            # Nullify the child pointer (as required)
+            # If there is a next node, push it onto the stack.
+            # It will be processed after the child node (if any)
+            if curr.next:
+                stack.append(curr.next)
 
-                    # If there was a next node after current, attach it to the end of child list
-                    if tempNext:
-                        child_tail.next = tempNext
-                        tempNext.prev = child_tail
+            # If there is a child node, push it to the stack to be processed next
+            # Set curr.child to None as it's flattened now
+            if curr.child:
+                stack.append(curr.child)
+                curr.child = None  # Important to remove child reference
 
-                    # Update last to the end of the child list
-                    last = child_tail
+            # Move prev forward for the next iteration
+            prev = curr
 
-                    # Move current to the saved next pointer to continue flattening
-                    curr = tempNext
-                else:
-                    # No child, just move to next node
-                    last = curr
-                    curr = curr.next
+        # Detach the pseudo head from the real head
+        pseudoHead.next.prev = None
+        return pseudoHead.next  # Return the flattened list starting from the real head
 
-            return last  # Return the tail of the fully flattened list
-
-        helper(head)  # Start recursive flattening from head
-        return head   # Return head of flattened list
