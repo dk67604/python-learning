@@ -89,6 +89,7 @@
 | `lc_78.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_78.py) |
 | `lc_79.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_79.py) |
 | `lc_791.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_791.py) |
+| `lc_814.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_814.py) |
 | `lc_863.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_863.py) |
 | `lc_875.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_875.py) |
 | `lc_938.py` | [View](https://github.com/dk67604/python-learning/blob/main/coding_2025/meta/lc_938.py) |
